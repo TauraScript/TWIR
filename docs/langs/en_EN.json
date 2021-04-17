@@ -176,47 +176,14 @@
         "total_market_price": "Total market price",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "Market Watcher",
-        "add_item": "watch",
-        "offer_count": "and %1 other listings",
-        "time_left": "time left",
-        "price": "buyout",
-        "bid": "bid",
-        "bid_now": "Find on the market",
-        "watched": "Watched items",
-        "collections": "Collections",
-        "last_scan": "Last scan",
-        "buy_trader": "Open vendor trader",
-        "import": "Import items",
-        "export": "Export items",
-        "progress_page": "Getting page",
-        "progress_title": "Scanning market",
-        "progress_found": "Seen",
-        "remove_all": "Remove all",
-        "curr_bid": "current bid",
-        "no_bids": "No bids",
-        "no_select": "No item selected",
-        "buffs": "Buffs",
-        "push_notification_text_single": "%1 has been seen on the market for %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "There are %1 new offers on the market that match your watch list"
-    },
     "features": {
         "preferences": "Preferences",
         "inventory_menus": "Inventory",
         "popup_tooltips": "Tooltips",
         "other": "Other preferences",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Show the item ID",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Show average damage of each weapon",
         "pop_bonus_calc": "Show the value of the refilled energy or HP next to the percentage (useable products)",
         "pop_trader": "Show the name of the store and its minimal level where it can be bought",
-        "mw_item_price_tooltip": "Show Market price pop-up for items",
-        "mw_product_price_tooltip": "Show Market price pop-up for products",
-        "mw_bbcode_tooltip": "Show Market price in the item BB-code",
-        "mw_alert_playsound": "Mute alert sound",
         "ml_market_collector": "Add a new button to show the \"Market Collector\" menu on the left side",
         "ml_sleep": "Add a new button to show the \"Sleep menu\" on the left side",
         "ml_npc": "Add a new button to show the \"Quest givers\" menu on the left side",
@@ -246,28 +209,20 @@
         "fb_online_status": "Add online status of players to the fort battle map's popup",
         "fb_ranks": "Add player's rank to the fort battle map's popup",
         "fb_ali_name": "Show Alliance name in the town overview",
-        "mw_clear_time": "Automatically delete data from the market scan if they are older than",
-        "mw_collections": "Watch items needed to complete collections",
-        "mw_trader": "Get notified when a trader is selling a watched item",
         "fb_count": "Show the number of ongoing fort battles",
         "chat_smart": "Smarter chat (URL recognition)",
-        "mw_status": "Show Progress Message during market scan",
         "inv_menu_size": "Maximum number of entries in a select menu",
         "pop_char_level": "Always show bonus value (per level) on your character level",
         "inv_cld_reminder": "Remind me that I have to use items that have a long cooldowns",
         "inv_cld_reminder_playsound": "Mute reminder sound",
         "pop_job_tooltip": "Improve job popup",
         "fb_char_icons": "Class specific icons in the fortbattle preparation window",
-        "mw_recipes": "Watch learnable recipes",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Enable push notifications",
-        "mw_scan_limit": "Maximum number of saved scans (per item) from a different player",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Christmas",
             "Holiday Sale"
@@ -437,5 +392,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }
