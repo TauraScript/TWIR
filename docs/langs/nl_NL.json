@@ -176,47 +176,14 @@
         "total_market_price": "Totale marktprijs",
         "total": "Totaal"
     },
-    "market_watcher": {
-        "add_name": "markt scanner",
-        "add_item": "kijk",
-        "offer_count": "and %1 other listings",
-        "time_left": "tijd over",
-        "price": "meteen kopen",
-        "bid": "bod",
-        "bid_now": "vind op de markt",
-        "watched": "gezochte items",
-        "collections": "verzamelingen ",
-        "last_scan": "Laatste scan",
-        "buy_trader": "Open rondreizende handelaar",
-        "import": "Importeer items",
-        "export": "Exporteer items",
-        "progress_page": "pagina laden",
-        "progress_title": "markt scannen",
-        "progress_found": "Gezien",
-        "remove_all": "Verwijder alle",
-        "curr_bid": "huidig bod",
-        "no_bids": "Geen biedingen",
-        "no_select": "Geen items geselecteerd",
-        "buffs": "Buffs",
-        "push_notification_text_single": "%1 is gezien op de markt voor %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "er zijn minder dan %1 nieuwe aanbiedingen op de marktplaats die overeenkomen met je bekeken items"
-    },
     "features": {
         "preferences": "Voorkeuren",
         "inventory_menus": "Inventaris / menus",
         "popup_tooltips": "tips",
         "other": "Andere voorkeuren",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Laat het item ID zien",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Laat gemiddelde schade van ieder wapen zien",
         "pop_bonus_calc": "Laat de waarde van de hervulde energie of levens zien naast het percentage",
         "pop_trader": "Laat de naam van de winkel zien waar je het kunt kopen en het minimale level",
-        "mw_item_price_tooltip": "Laat een markt prijs pop-up zien voor items",
-        "mw_product_price_tooltip": "Laat een markt prijs pop-up zien voor producten",
-        "mw_bbcode_tooltip": "Laat de markt prijs zien in de item BB-code",
-        "mw_alert_playsound": "Zet het alert geluid uit",
         "ml_market_collector": "Voeg een nieuwe knop toe aan het \"Markt verzamelaar\" menu aan de linkerkant",
         "ml_sleep": "Voeg een nieuwe knop toe om het \"Slaap menu\" Te laten zien aan de linker kant",
         "ml_npc": "Voeg een nieuwe toe om het  \"Opdrachtgevers\" menu te laten zien aan de linker kant",
@@ -246,28 +209,20 @@
         "fb_online_status": "Voeg online status van de speler toe in de fortgevecht popups",
         "fb_ranks": "Voeg de rang van de speler toe aan de fortgevecht pupups",
         "fb_ali_name": "Laat de alliantie naam zien in het stadsoverzicht",
-        "mw_clear_time": "Verwijder markt scan data automatisch wanneer ze ouder zijn dan",
-        "mw_collections": "Zoek naar items die nodig zijn om een collectie compleet te maken",
-        "mw_trader": "Krijg een notificatie wanneer de snor een gezocht item verkoopt",
         "fb_count": "laat het aantal fortgevechten zien",
         "chat_smart": "Slimmere chat (url herkenning)",
-        "mw_status": "Laat voortgang bericht zien tijdens markt scan",
         "inv_menu_size": "Maximaal aantal rijen in het menu selecteren",
         "pop_char_level": "laat altijd de bonus waarde per level zijn op jou karakter",
         "inv_cld_reminder": "help me herinneren dat ik items moet gebruiken met een lange cooldown",
         "inv_cld_reminder_playsound": "Zet reminder geluid uit",
         "pop_job_tooltip": "Verbeter arbeids popup",
         "fb_char_icons": "klasse specifieke iconen in het fortgevecht venster",
-        "mw_recipes": "Bekijk leerbare recepten",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Sta push meldingen toe",
-        "mw_scan_limit": "Maximaal aantal opgeslagen scans per items van een andere speler",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Kerstmis feestdagen verkoop"
         ],
@@ -435,5 +390,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

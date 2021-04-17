@@ -176,47 +176,14 @@
         "total_market_price": "Preço total de mercado",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "Observador de Mercado",
-        "add_item": "Seguir licitação",
-        "offer_count": "e %1 outra listagem",
-        "time_left": "Tempo restante",
-        "price": "Aquisição",
-        "bid": "Oferta",
-        "bid_now": "Procurar no mercado",
-        "watched": "Artigos observados",
-        "collections": "Colecções",
-        "last_scan": "Última pesquisa",
-        "buy_trader": "Abrir caixeiro viajante",
-        "import": "Importar artigos",
-        "export": "Exportar artigos",
-        "progress_page": "A obter página",
-        "progress_title": "A pesquisar o mercado",
-        "progress_found": "Visto",
-        "remove_all": "Remover todos",
-        "curr_bid": "Oferta actual",
-        "no_bids": "Sem ofertas",
-        "no_select": "Nenhum artigo seleccionado",
-        "buffs": "Incrementos",
-        "push_notification_text_single": "%1 foi visto por %2",
-        "threshold": "Preço limite",
-        "below_threshold": "Abaixo do preço limite",
-        "above_threshold": "Acima do preço limite",
-        "bid_threshold": "Limite de licitações",
-        "buyout_threshold": "Limite de compra",
-        "filter_auctions": "Filtrar leilões",
-        "seller_name": "Nome do Vendedor",
-        "town_name": "Nome da cidade",
-        "cost_range": "Alcance de custo",
-        "push_notification_text": "Há %1 novas ofertas no mercado que correspondem à tua lista de observação"
-    },
     "features": {
         "preferences": "Preferências",
         "inventory_menus": "Inventários / Menus",
         "popup_tooltips": "Dicas",
         "other": "Outras preferências",
         "enable_addon": "Activar %1 neste mundo",
-        "sort_inv": "Escolha personalizada"
+        "sort_inv": "Escolha personalizada",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Mostrar ID do artigo",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Mostrar o dano médio de cada arma",
         "pop_bonus_calc": "Mostrar o valor da energia ou saúde repostos, ao lado da percentagem(produtos usáveis)",
         "pop_trader": "Mostrar nome do comerciante e o nível mínimo do comerciante de onde pode ser comprado",
-        "mw_item_price_tooltip": "Mostrar o preço de mercado aconselhado para o artigo",
-        "mw_product_price_tooltip": "Mostrar o preço de mercado aconselhado para produtos",
-        "mw_bbcode_tooltip": "Mostrar o preço de mercado no BB-code do artigo",
-        "mw_alert_playsound": "Desligar som de alerta",
         "ml_market_collector": "Adicionar um botão  no lado esquerdo para mostrar o menu \"Mercado de Coleccionadores\"",
         "ml_sleep": "Adicionar um botão para mostrar o menu \"Dormir\"",
         "ml_npc": "Adicionar um botão para mostrar o menu \"Empregadores\"",
@@ -246,28 +209,20 @@
         "fb_online_status": "Mostrar o estado do jogador no pop-up do mapa da batalha",
         "fb_ranks": "Mostrar o nível do jogador no pop-up do mapa da batalha",
         "fb_ali_name": "Mostrar nome da aliança no perfil da cidade",
-        "mw_clear_time": "Eliminar automaticamente pesquisas mais antigas que",
-        "mw_collections": "Procurar artigos necessários para completar colecções",
-        "mw_trader": "Receber notificação quando o comerciante estiver a vender artigo procurado",
         "fb_count": "Mostrar batalhas a decorrer",
         "chat_smart": "Chat inteligente (reconhecimento do URL)",
-        "mw_status": "Mostrar mensagem de progresso durante pesquisa do mercado",
         "inv_menu_size": "Número máximo de filas no menu de selecção",
         "pop_char_level": "Mostar sempre nível de bónus (por nível) no nível da personagem",
         "inv_cld_reminder": "Lembrar-me que tenho de usar produtos com tempos de reutilização demorados",
         "inv_cld_reminder_playsound": "Lembrete para silenciar",
         "pop_job_tooltip": "Melhoria de trabalho em pop-up",
         "fb_char_icons": "Ícones específicos da classe na janela da batalhas fortes",
-        "mw_recipes": "Seguir receitas",
-        "mw_buyouts_only": "Só compras",
-        "mw_push_notifications": "Activar notificações",
-        "mw_scan_limit": "Máximo de procuras guardadas (por artigo) de diferentes jogadores",
         "quest_color": "Mudar a cor das missões que posso completar",
         "inv_size": "Inventário reduzido",
         "inv_max_slots": "Quantidade máxima de filas no inventário %1 nota: quantidades elevadas que causam atraso durante o enrolamento",
         "smart_speed_set": "Calculadora inteligente de velocidade (sem perder HP, se possível)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Natal",
             "Vendas de Natal"
@@ -437,5 +392,15 @@
         "south": "Muro Sul",
         "west": "Muro Oeste",
         "east": "Muro Este"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

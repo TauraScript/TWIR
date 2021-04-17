@@ -176,47 +176,14 @@
         "total_market_price": "Celková trhová cena",
         "total": "Spolu"
     },
-    "market_watcher": {
-        "add_name": "Sledovač trhu",
-        "add_item": "sledovať",
-        "offer_count": "a %1 ďalších ponúk",
-        "time_left": "platné",
-        "price": "cena",
-        "bid": "ponuka",
-        "bid_now": "Zobraziť na trhu",
-        "watched": "Sledované predmety",
-        "collections": "Zbierky",
-        "last_scan": "Posledný scan",
-        "buy_trader": "Zobraziť u obchodníka",
-        "import": "Importovať",
-        "export": "Exportovať",
-        "progress_page": "Zobrazujem stranu",
-        "progress_title": "Skenovanie trhu",
-        "progress_found": "Videné",
-        "remove_all": "Odobrať všetky",
-        "curr_bid": "top ponuka",
-        "no_bids": "Žiadne ponuky",
-        "no_select": "Nič nie je vybrané",
-        "buffs": "Posilnenia",
-        "push_notification_text_single": "Predmet %1 bol videný na trhu za %2",
-        "threshold": "Prahová hodnota",
-        "below_threshold": "Pod prahovou hodnotou",
-        "above_threshold": "Nad prahovou hodnotou",
-        "bid_threshold": "Prah ponuky",
-        "buyout_threshold": "Prah ceny",
-        "filter_auctions": "Filtrovať Aukcie",
-        "seller_name": "Meno predajcu",
-        "town_name": "Názov mesta",
-        "cost_range": "Rozsah ceny",
-        "push_notification_text": "Na trhu je %1 nových ponúk, ktoré odpovedajú zoznamu sledovaných predmetov"
-    },
     "features": {
         "preferences": "Preferencie",
         "inventory_menus": "Inventár / Menu",
         "popup_tooltips": "Popisy predmetov",
         "other": "Ostatné preferencie",
         "enable_addon": "Povoliť %1 na tomto svete",
-        "sort_inv": "Vlastné triedenie"
+        "sort_inv": "Vlastné triedenie",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Zobraziť ID u každého predmetu",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Zobraziť priemerné poškodenie každej zbrane",
         "pop_bonus_calc": "Zobraziť hodnotu doplnenej energie alebo hp vedľa percenta (u doplňovákov)",
         "pop_trader": "Zobraziť názov obchodu a jeho minimálnu úroveň, kde daný predmet možno kúpiť",
-        "mw_item_price_tooltip": "Zobraziť pop-up trhovej ceny (u itemov)",
-        "mw_product_price_tooltip": "Zobraziť pop-up trhovej ceny (u produktov)",
-        "mw_bbcode_tooltip": "Zobraziť trhové ceny v BB-kódoch",
-        "mw_alert_playsound": "Stlmiť zvukové upozornenie",
         "ml_market_collector": "Pridať tlačítko pre zobrazenie ponuky \"Prehľad trhu\"",
         "ml_sleep": "Pridať tlačítko pre zobrazenie ponuky \"Nájdi posteľ\"",
         "ml_npc": "Pridať tlačítko pre zobrazenie ponuky \"Nájdi zadávateľa\"",
@@ -246,28 +209,20 @@
         "fb_online_status": "Zobraziť online status vybraného hráča v priebehu boja",
         "fb_ranks": "Zobraziť hodnosť vybraného hráča v priebehu boja",
         "fb_ali_name": "Zobraziť názov aliancie v náhľadu mesta",
-        "mw_clear_time": "Automaticky mazať dáta z kontroly trhu, pokiaľ sú staršie než",
-        "mw_collections": "Sledovať predmety potrebné do zbierky",
-        "mw_trader": "Dostať upozornenie keď obchodník predáva sledovaný predmet",
         "fb_count": "Zobraziť počet nadchádzajúcich bojov",
         "chat_smart": "Inteligentnejší chat (rozpoznávanie adresy URL)",
-        "mw_status": "Zobraziť správu o priebehu počas skenovania trhu",
         "inv_menu_size": "Maximálny počet riadkov vo výberovom menu",
         "pop_char_level": "Zobraziť hodnotu bonusu (na úroveň) na úrovni charakteru",
         "inv_cld_reminder": "Pripomenúť mi, že mám použiť predmety, ktoré majú dlhé cooldowny",
         "inv_cld_reminder_playsound": "Stlmiť zvukové upozornenie u reminderu",
         "pop_job_tooltip": "Vylepšiť pop-up u prác",
         "fb_char_icons": "Ikony špecifické pre danú triedu postavy v okne prípravy boja",
-        "mw_recipes": "Sledovať recepty, ktoré sa dajú naučiť",
-        "mw_buyouts_only": "Len okamžitý nákup",
-        "mw_push_notifications": "Povoliť \"push\" notifikácie",
-        "mw_scan_limit": "Maximálny počet uložených skenov (na predmet) od rôznych hráčov",
         "quest_color": "Zmeniť farbu úloh, ktoré môžem dokončiť",
         "inv_size": "Menší inventár",
         "inv_max_slots": "Maximálny počet riadkov v inventári %1 poznámka: vyššie čísla spôsobujú sekanie pri scrollovaní",
         "smart_speed_set": "Lepšia kalkulácia speed setu (bez straty HP, ak je to možné)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Christmas",
             "Holiday Sale"
@@ -437,5 +392,15 @@
         "south": "Južná hradba",
         "west": "Západná hradba",
         "east": "Východná hradba"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

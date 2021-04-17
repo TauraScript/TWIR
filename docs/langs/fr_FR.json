@@ -176,47 +176,14 @@
         "total_market_price": "Valeur au marché",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "Market Watcher",
-        "add_item": "Surveiller",
-        "offer_count": "et %1 autres entrées",
-        "time_left": "temps restant",
-        "price": "prix",
-        "bid": "Enchère",
-        "bid_now": "Afficher au marché",
-        "watched": "Watched items",
-        "collections": "Collections",
-        "last_scan": "Last scan",
-        "buy_trader": "Show a trader",
-        "import": "Import items",
-        "export": "Export items",
-        "progress_page": "Getting page",
-        "progress_title": "Scanning market",
-        "progress_found": "Seen",
-        "remove_all": "Remove all",
-        "curr_bid": "current bid",
-        "no_bids": "No bids",
-        "no_select": "No item selected",
-        "buffs": "Buffs",
-        "push_notification_text_single": "%1 has been seen on the market for %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "There are %1 new offers on the market that match your watch list"
-    },
     "features": {
         "preferences": "Préférences",
         "inventory_menus": "Inventaire / Liste des sets",
         "popup_tooltips": "Infobulle",
         "other": "Autres préférences",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Afficher l'id de l'item",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Afficher les dégâts moyens des armes",
         "pop_bonus_calc": "Afficher le nombre de points de vie ou de repos apportés par le renforcement",
         "pop_trader": "Afficher le magasin où l'item peut être achetés",
-        "mw_item_price_tooltip": "Afficher le prix au marché pour les items",
-        "mw_product_price_tooltip": "Afficher le prix au marché pour les produits",
-        "mw_bbcode_tooltip": "Afficher le prix au marché dans les BB-codes",
-        "mw_alert_playsound": "Couper le son des alertes",
         "ml_market_collector": "Raccourci pour collecter au marché",
         "ml_sleep": "Raccourci pour dormir",
         "ml_npc": "Raccourci vers les donneurs de quêtes",
@@ -246,28 +209,20 @@
         "fb_online_status": "Afficher le statut en ligne lors des batailles de fort",
         "fb_ranks": "Afficher le grade lors des batailles de fort",
         "fb_ali_name": "Afficher le nom de l'alliance dans les profils des villes",
-        "mw_clear_time": "Automatically delete scan data older than",
-        "mw_collections": "Watch items needed for collections",
-        "mw_trader": "Get notified when a trader is selling watched item",
         "fb_count": "Show the number of ongoing fort battles",
         "chat_smart": "Smarter chat (URL recognition)",
-        "mw_status": "Show Progress Message during market scan",
         "inv_menu_size": "Maximum number of entries in a select menu",
         "pop_char_level": "Always show bonus value (per level) on your character level",
         "inv_cld_reminder": "Remind me that I have to use items that have a long cooldowns",
         "inv_cld_reminder_playsound": "Mute reminder sound",
         "pop_job_tooltip": "Improve job popup",
         "fb_char_icons": "Class specific icons in the fortbattle preparation window",
-        "mw_recipes": "Watch learnable recipes",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Enable push notifications",
-        "mw_scan_limit": "Maximum number of saved scans (per item) from a different player",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Noël",
             "Vente de Noël"
@@ -437,5 +392,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

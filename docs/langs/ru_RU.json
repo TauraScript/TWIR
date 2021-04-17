@@ -176,47 +176,14 @@
         "total_market_price": "Общая рыночная цена",
         "total": "вместе"
     },
-    "market_watcher": {
-        "add_name": "контроль рынка",
-        "add_item": "следить",
-        "offer_count": "%1 другие предложения",
-        "time_left": "действует",
-        "price": "цена",
-        "bid": "предложение",
-        "bid_now": "Посмотреть рынок",
-        "watched": "Отслеживаемые предметы",
-        "collections": "Коллекции",
-        "last_scan": "Последний скан",
-        "buy_trader": "Посмотреть у продавца",
-        "import": "импорт",
-        "export": "экспорт",
-        "progress_page": "Показ страницы",
-        "progress_title": "Сканирование рынка",
-        "progress_found": "видеть, смотреть",
-        "remove_all": "Удалить все",
-        "curr_bid": "топ ставка",
-        "no_bids": "Нет предложений",
-        "no_select": "Ничего не выбрано",
-        "buffs": "укрепление",
-        "push_notification_text_single": "предмет %1 был просмотрен за %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "There are %1 new offers on the market that match your watch list"
-    },
     "features": {
         "preferences": "предпочтение",
         "inventory_menus": "Инвентарь / Меню",
         "popup_tooltips": "Описания предметов",
         "other": "Другие предпочтения",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Показать ID каждого предмета",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Показать средний урон для каждого оружия",
         "pop_bonus_calc": "Рассчитать значение добавленной энергии или жизни",
         "pop_trader": "Показать название магазина и минимальный уровень, если товар можно купить",
-        "mw_item_price_tooltip": "изобразить рыночную цену (стоимость)",
-        "mw_product_price_tooltip": "Просмотр  рыночных цен на товары",
-        "mw_bbcode_tooltip": "Отображать рыночные цены в BB-кодах",
-        "mw_alert_playsound": "Отключить звуковой сигнал",
         "ml_market_collector": "Кнопка меню «Обзор рынка»",
         "ml_sleep": "Добавьте кнопку для отображения меню «Найти кровать»",
         "ml_npc": "Кнопка «Добавить» для отображения меню «Найти искатель»",
@@ -246,28 +209,20 @@
         "fb_online_status": "Просмотр онлайн статуса выбранного игрока во время битвы",
         "fb_ranks": "Показать рейтинг выбранного игрока во время битвы",
         "fb_ali_name": "Показать название альянса  в профиле города",
-        "mw_clear_time": "Автоматически удалять старые данные сканирования",
-        "mw_collections": "Отслеживать предметы, необходимые для коллекции",
-        "mw_trader": "\nПолучать оповещения, когда продовец продает отслеживаемый товар",
         "fb_count": "Показать количество активных сражений",
         "chat_smart": "Умный чат (распознавание URL)",
-        "mw_status": "Показать отчет о ходе сканирования рынка",
         "inv_menu_size": "Максимальное количество строк в меню выбора",
         "pop_char_level": "Показать значение бонуса (за уровень) на уровне персонажа",
         "inv_cld_reminder": "Напомни мне использовать предметы, у которых долгие cooldowny",
         "inv_cld_reminder_playsound": "Отключить звук для напоминания",
         "pop_job_tooltip": "Улучшение всплывающих окон для рабочих мест",
         "fb_char_icons": "Class specific icons in the fortbattle preparation window",
-        "mw_recipes": "Watch learnable recipes",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Enable push notifications",
-        "mw_scan_limit": "Maximum number of saved scans (per item) from a different player",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "рождество"
         ],
@@ -435,5 +390,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

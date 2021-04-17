@@ -176,47 +176,14 @@
         "total_market_price": "Total precio mercado",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "Observador de Mercado",
-        "add_item": "vigilar",
-        "offer_count": "y %1 otras listas",
-        "time_left": "tiempo restante",
-        "price": "precio",
-        "bid": "oferta",
-        "bid_now": "Encontrar en el mercado",
-        "watched": "Artículos vigilados",
-        "collections": "Colecciones",
-        "last_scan": "Último escaneo",
-        "buy_trader": "Mostrar comerciante",
-        "import": "Importar artículos",
-        "export": "Exportar artículos",
-        "progress_page": "Obteniendo página",
-        "progress_title": "Escaneando mercado",
-        "progress_found": "Visto",
-        "remove_all": "Eliminar todo",
-        "curr_bid": "oferta actual",
-        "no_bids": "Sin ofertas",
-        "no_select": "Ningún artículo seleccionado",
-        "buffs": "Buffs",
-        "push_notification_text_single": "%item ha sido visto de %player por %dollars",
-        "threshold": "Límite",
-        "below_threshold": "Límite Inferior",
-        "above_threshold": "Límite Superior",
-        "bid_threshold": "Límite de Oferta",
-        "buyout_threshold": "Límite de Compra",
-        "filter_auctions": "Filtro de Subasta",
-        "seller_name": "Nombre del Vendedor",
-        "town_name": "Nombre Ciudad",
-        "cost_range": "Rango de Coste",
-        "push_notification_text": "Hay %1 nuevas ofertas en el mercado que coinciden con su lista de seguimiento"
-    },
     "features": {
         "preferences": "Preferencias",
         "inventory_menus": "Inventario / Menús",
         "popup_tooltips": "Consejos",
         "other": "Otras preferencias",
         "enable_addon": "Habilitar %1 en este mundo",
-        "sort_inv": "Ordenación personalizada"
+        "sort_inv": "Ordenación personalizada",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Mostrar la Id del artículo",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Mostrar el daño promedio de cada arma",
         "pop_bonus_calc": "Calcular el valor de la energía rellenada o puntos de salud de productos utilizables",
         "pop_trader": "Mostrar comerciante y nivel de comerciante para los artículos vendibles",
-        "mw_item_price_tooltip": "Mostrar el precio de mercado aconsejable para articulos",
-        "mw_product_price_tooltip": "Mostrar el precio de mercado aconsejable para productos",
-        "mw_bbcode_tooltip": "Mostrar precio de mercado del artículo en BB-code",
-        "mw_alert_playsound": "Silenciar sonido de alerta",
         "ml_market_collector": "Agregar un botón para mostrar el menú Colector de Mercado",
         "ml_sleep": "Agregar un botón para mostrar el menú de dormir",
         "ml_npc": "Agregar un botón para mostrar el menú de dadores de misiones",
@@ -246,28 +209,20 @@
         "fb_online_status": "Mostrar el estado en línea del jugador en la ventana emergente del mapa de batalla del fuerte",
         "fb_ranks": "Mostrar rango del jugador en la ventana emergente del mapa de batalla del fuerte",
         "fb_ali_name": "Mostrar nombre de alianza en vista de ciudad",
-        "mw_clear_time": "Automáticamente borra escaneo de datos de más de",
-        "mw_collections": "Vigilar artículos necesarios para colecciones",
-        "mw_trader": "Recibir notificación cuando un comerciante venda un artículo vigilado",
         "fb_count": "Mostrar número batallas fuertes actvas",
         "chat_smart": "Chat más inteligente (reconocimiento de URL)",
-        "mw_status": "Mostrar mensaje de progreso escaneo de mercado",
         "inv_menu_size": "Número máximo de filas en un menú de selección.",
         "pop_char_level": "Mostrar siempre el valor de bonificación (por nivel) en tu nivel de personaje",
         "inv_cld_reminder": "Recordatorio de artículos con largos tiempos de fabricación.",
         "inv_cld_reminder_playsound": "Enmudecer sonido recordatorio",
         "pop_job_tooltip": "Mejorar ventana emergente de trabajo",
         "fb_char_icons": "Iconos específicos de carácter en la ventana de preparación de nbatalla",
-        "mw_recipes": "Mirar recetas aprendibles",
-        "mw_buyouts_only": "Solo compras",
-        "mw_push_notifications": "Habilitar notificaciones push",
-        "mw_scan_limit": "Número máximo de escaneos (por artículo) de jugadores diferentes",
         "quest_color": "Cambiar color de búsquedas que puedo completar",
         "inv_size": "Inventario pequeño",
-        "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
-        "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
+        "inv_max_slots": "Número máximo de filas en el inventario %1 nota: números más altos provocan un retraso durante el desplazamiento",
+        "smart_speed_set": "Cálculo del conjunto de velocidad más inteligente (sin perder HP si es posible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Navidad",
             "Venta de vacaciones"
@@ -436,5 +391,15 @@
         "south": "Muralla Sur",
         "west": "Muralla Oeste",
         "east": "Muralla Este"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

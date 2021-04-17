@@ -140,14 +140,14 @@
         "pin": "İğnele",
         "unpin": "İğnelemeyi kaldır",
         "color_picker_title": "Bir renk seç",
-        "exact": "Exact",
+        "exact": "Kesin",
         "wearable_only": "Benim tarafımdan giyilebilir",
         "lvl_range": "Seviye Aralığı",
         "save": "Kaydet",
         "save_n_reload": "Kaydet & Yenile",
         "sort_damage": "Hasar",
-        "sort_values": "Its values",
-        "exclude": "Exclude"
+        "sort_values": "Değer(leri)",
+        "exclude": "Hariç tut"
     },
     "stats": {
         "stats": "İstatistikler",
@@ -176,47 +176,14 @@
         "total_market_price": "Toplam pazar fiyatı",
         "total": "Toplam"
     },
-    "market_watcher": {
-        "add_name": "Pazar İzleme",
-        "add_item": "İzleme",
-        "offer_count": "ve %1 diğer ilan",
-        "time_left": "Kalan Süre",
-        "price": "Satın alma",
-        "bid": "Teklif",
-        "bid_now": "Bunu markette bul",
-        "watched": "İzlenen itemler",
-        "collections": "Koleksiyonlar",
-        "last_scan": "Son tarama",
-        "buy_trader": "Seyyar satıcıyı aç",
-        "import": "Öğeleri İçe Aktar",
-        "export": "Öğeleri Dışa Aktar",
-        "progress_page": "Sayfa alınıyor",
-        "progress_title": "Market tarama",
-        "progress_found": "görülme",
-        "remove_all": "Tümünü kaldır",
-        "curr_bid": "mevcut teklif",
-        "no_bids": "Teklif yok",
-        "no_select": "Seçili eşya yok",
-        "buffs": "Güçlendirmeler",
-        "push_notification_text_single": "%2 için piyasada %1 görüldü",
-        "threshold": "Aralık",
-        "below_threshold": "Aralığın altındakiler",
-        "above_threshold": "Aralığın Üstündekiler",
-        "bid_threshold": "Teklif Aralığı",
-        "buyout_threshold": "Satın Alma Aralığı",
-        "filter_auctions": "Açık Artırmaları Filtrele",
-        "seller_name": "Satıcı adı",
-        "town_name": "Kasaba ismi",
-        "cost_range": "Fiyat aralığı",
-        "push_notification_text": "Piyasada izleme listenizle eşleşen %1 yeni teklif var"
-    },
     "features": {
         "preferences": "Ayarlar",
         "inventory_menus": "Envanter / Menüler",
         "popup_tooltips": "İpuçları",
         "other": "Diğer ayarlar",
         "enable_addon": "Bu dünyada %1'i etkinleştirin",
-        "sort_inv": "Özel Sıralama"
+        "sort_inv": "Özel Sıralama",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "İtem ID'yi göster.",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Her silahın ortalama hasarını göster",
         "pop_bonus_calc": "Doldurulmuş enerjinin veya hp'nin yüzdenin yanındaki değerini göster (kullanılabilir ürünler)",
         "pop_trader": "Mağazanın adını ve satın alınabileceği minimum seviyesini gösterin",
-        "mw_item_price_tooltip": "Eşyalar için piyasa fiyatını açılır pencerede göster",
-        "mw_product_price_tooltip": "Ürünler için piyasa fiyatını açılır pencerede göster",
-        "mw_bbcode_tooltip": "BB kodunda pazar fiyatını göster",
-        "mw_alert_playsound": "Uyarı sesini kapat",
         "ml_market_collector": "Sol tarafta \"Pazar toplayıcısı\" menüsünü göstermek için yeni bir düğme ekleyin",
         "ml_sleep": "Sol tarafta \"Uyku menüsü\" nü göstermek için yeni bir düğme ekleyin",
         "ml_npc": "Sol tarafta \"Görev verenler\" menüsünü göstermek için yeni bir düğme ekleyin",
@@ -246,28 +209,20 @@
         "fb_online_status": "Kale savaşı haritasının pop-up'ına çevrimiçi oyuncu durumu ekle",
         "fb_ranks": "Kale savaşı haritasının pop-up'ına oyuncunun rütbesini ekle",
         "fb_ali_name": "Kasabaya genel bakışta İttifak adını göster",
-        "mw_clear_time": "Daha eskiyse verileri pazar taramasından otomatik olarak sil",
-        "mw_collections": "Koleksiyonları tamamlamak için gereken öğeleri izleyin",
-        "mw_trader": "Bir oyuncu izlenen bir ürünü satarken bildirim alın",
         "fb_count": "Devam eden kale savaşlarının sayısını göster",
         "chat_smart": "Daha akıllı sohbet (URL tanıma)",
-        "mw_status": "Pazar taraması sırasında İlerleme Mesajı göster",
         "inv_menu_size": "Bir seçim menüsündeki satırların maksimum sayısı",
         "pop_char_level": "Her zaman karakter seviyenize göre bonus değerini (seviye başına) gösterin",
         "inv_cld_reminder": "Uzun bekleme süreleri olan eşyaları kullanmam gerektiğini hatırlat",
         "inv_cld_reminder_playsound": "Hatırlatma sesini sustur",
         "pop_job_tooltip": "İş penceresini açın",
         "fb_char_icons": "Fortbattle hazırlık penceresinde sınıfa özel simgeler",
-        "mw_recipes": "Öğrenilebilir tarifleri izleyin",
-        "mw_buyouts_only": "Sadece satın alımlar",
-        "mw_push_notifications": "Bildirimleri etkinleştirin",
-        "mw_scan_limit": "Farklı bir oynatıcıdan kaydedilen maksimum tarama sayısı (öğe başına)",
         "quest_color": "Tamamlayabileceğim görevlerin rengini değiştir",
         "inv_size": "Küçük Envanter",
-        "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
-        "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
+        "inv_max_slots": "Envanterdeki maksimum satır sayısı %1 notu: daha yüksek sayılar kaydırma sırasında gecikmeye neden oluyor",
+        "smart_speed_set": "Daha akıllı hız seti hesaplaması (mümkünse HP kaybetmeden)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Yılbaşı Tatil Satışı"
         ],
@@ -406,7 +361,7 @@
         "avg_dmg": "Ortalama Hasar",
         "wep_breakdown": "Weapons breakdown",
         "avg_wep_dmg": "Ortalama Silah Hasar",
-        "damage_multiplier": "Damage Multiplier",
+        "damage_multiplier": "Hasar Çarpanı",
         "sectors_info": "Sektör haritasını göster"
     },
     "bidder": {
@@ -435,5 +390,15 @@
         "south": "Güney Duvarı",
         "west": "Batı Duvarı",
         "east": "Doğu Duvarı"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

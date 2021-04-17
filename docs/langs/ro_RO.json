@@ -176,47 +176,14 @@
         "total_market_price": "Prețul total al pieței",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "Urmăritor piață",
-        "add_item": "Urmărește",
-        "offer_count": "Și %1 alte liste",
-        "time_left": "Timp rămas",
-        "price": "Cumpără",
-        "bid": "Ofertă",
-        "bid_now": "Găsește pe piața",
-        "watched": "Iteme urmărite",
-        "collections": "Colecții",
-        "last_scan": "Ultima scanare",
-        "buy_trader": "Deschide negustorul ambulant",
-        "import": "Importă iteme",
-        "export": "Exportă iteme",
-        "progress_page": "Primind pagina",
-        "progress_title": "Scanare piata",
-        "progress_found": "Vazut",
-        "remove_all": "Sterge tot",
-        "curr_bid": "Oferat curentă",
-        "no_bids": "Nicio ofertă",
-        "no_select": "Niciun item selectat",
-        "buffs": "Îmbunătățiri",
-        "push_notification_text_single": "%1 a fost văzut pe piață cu %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "There are %1 new offers on the market that match your watch list"
-    },
     "features": {
         "preferences": "Preferințe",
         "inventory_menus": "Inventar / Meniu",
         "popup_tooltips": "Ponturi",
         "other": "Alte preferințe",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Afișează ID-ul articolului",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Arată dauna medie a fiecărei arme",
         "pop_bonus_calc": "Afiseaza energia/ punctele de viata regenerate (produse utilizabile)\n\n",
         "pop_trader": "Afișați numele magazinului și nivelul său minim de unde poate fi cumpărat",
-        "mw_item_price_tooltip": "\nAfișează pop-up cu preț de piață pentru articole",
-        "mw_product_price_tooltip": "Afișează pop-up la preț de piață pentru produse\n",
-        "mw_bbcode_tooltip": "Arată prețul de la piață al itemului în BB-cod",
-        "mw_alert_playsound": "Opreste alertele sonore",
         "ml_market_collector": "Adăugați un nou buton pentru a afișa meniul „Market Collecter” in partea stângă",
         "ml_sleep": "Adaugă un nou buton pentru a arăta meniul ”Somn” pe partea stângă",
         "ml_npc": "Adaugă un nou buton pentru a arăta meniul ”Împărțitorii de misiuni” pe partea stângă",
@@ -246,28 +209,20 @@
         "fb_online_status": "Arată statusul online al jucătorului în fereastra de bătălie pentru fort",
         "fb_ranks": "Adaugă rangul jucătorului în fereastra hărții pentru bătălie pentru fort",
         "fb_ali_name": "Afiseaza alianta in prezentarea orasului",
-        "mw_clear_time": "Automat șterge informațiile din scanare piață dacă sunt mai vechi de",
-        "mw_collections": "Urmărește obiecte necesare pentru a completa colecțiile",
-        "mw_trader": "Primește notificare când un comerciant vinde un item urmărit",
         "fb_count": "Afiseaza numarul luptelor de fort",
         "chat_smart": "Chat mai deștept (recunoaștere URL)",
-        "mw_status": "Afisati progresul in timpul scanarii",
         "inv_menu_size": "Numărul maxim de rânduri într-un meniu selectat",
         "pop_char_level": "Arată întotdeauna valoarea bonus (per nivel) a caracterului",
         "inv_cld_reminder": "Reamintește-mi că trebuie să folosesc articole care au un timp de recoltă lung",
         "inv_cld_reminder_playsound": "\nSunet mut de memento",
         "pop_job_tooltip": "\nÎmbunătățirea ferestrei de locuri de muncă",
         "fb_char_icons": "\nClasează pictograme specifice în fereastra de pregătire a fortbattle-ului",
-        "mw_recipes": "Watch learnable recipes",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Enable push notifications",
-        "mw_scan_limit": "Maximum number of saved scans (per item) from a different player",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Vânzare Vacanța de Crăciun"
         ],
@@ -435,5 +390,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

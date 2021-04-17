@@ -176,47 +176,14 @@
         "total_market_price": "Teljes piaci ár",
         "total": "Összes"
     },
-    "market_watcher": {
-        "add_name": "Piacfigyelő",
-        "add_item": "megfigyel",
-        "offer_count": "és %1 más listák",
-        "time_left": "idő maradt",
-        "price": "ár",
-        "bid": "kínál",
-        "bid_now": "Keresd a piacon",
-        "watched": "Figyelt tárgyak",
-        "collections": "Gyűjtemények",
-        "last_scan": "Utolsó keresés",
-        "buy_trader": "Mutass egy eladót",
-        "import": "Tárgyak importálása",
-        "export": "Tárgyak exportálása",
-        "progress_page": "Oldal ellenőrzése",
-        "progress_title": "Piac vizsgálata",
-        "progress_found": "Látott",
-        "remove_all": "Mindent elvátovolít",
-        "curr_bid": "Jelenlegi ajánlat",
-        "no_bids": "Nincs ajánlat",
-        "no_select": "Nincs kiválasztva semmi",
-        "buffs": "Buffok",
-        "push_notification_text_single": "%1 lett felkínálva tőle: %2",
-        "threshold": "Threshold",
-        "below_threshold": "Below Threshold",
-        "above_threshold": "Above Threshold",
-        "bid_threshold": "Bid Threshold",
-        "buyout_threshold": "Buyout Threshold",
-        "filter_auctions": "Filter Auctions",
-        "seller_name": "Seller Name",
-        "town_name": "Town Name",
-        "cost_range": "Cost Range",
-        "push_notification_text": "There are %1 new offers on the market that match your watch list"
-    },
     "features": {
         "preferences": "Beállítások",
         "inventory_menus": "Felszerelés / Menük",
         "popup_tooltips": "Tooltip-ek",
         "other": "Egyéb lehetőségek",
         "enable_addon": "Enable %1 on this world",
-        "sort_inv": "Sort Customization"
+        "sort_inv": "Sort Customization",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Mutasd a tárgy ID-t",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Mutasd a fegyver átlagsebzését",
         "pop_bonus_calc": "Számold ki az elfogyasztható termékek által visszatöltött energia vagy életerő értékét",
         "pop_trader": "Mutasd az utazó kereskedőt és a szintjét az eladható tárgyaknál",
-        "mw_item_price_tooltip": "Mutasd a piaci ár segédeszközt a tárgyakhoz",
-        "mw_product_price_tooltip": "Mutasd a piaci ár segédeszközt a termékekhez",
-        "mw_bbcode_tooltip": "Mutasd a piaci árat a tárgy BB kódjában",
-        "mw_alert_playsound": "Értesítési hang kikapcsolása",
         "ml_market_collector": "Hozzon létre egy gombot a Piaci gyűjteményekhez",
         "ml_sleep": "Hozzon létre egy gombot az Alvás menühöz",
         "ml_npc": "Hozzon létre egy gombot a Kalandosztókhoz",
@@ -246,28 +209,20 @@
         "fb_online_status": "Mutasd a játékosok online státuszát az erődharc téképen",
         "fb_ranks": "Mutasd az játékosok rangját az erődharc térképen",
         "fb_ali_name": "Mutasd a szövetség nevét a város profilon",
-        "mw_clear_time": "Autómatikusan törölje a kereséseket amik régebbiek mint",
-        "mw_collections": "Gyűjteményhez szükséges termékek megtekintése",
-        "mw_trader": "Értesítsen ha a kereskedő árulja a kívánt terméket",
         "fb_count": "Mutassa az aktív erődharcok számát",
         "chat_smart": "Okosabb chat (URL felismerés)",
-        "mw_status": "Piac vizsgálat üzenet mutatása",
         "inv_menu_size": "A sorok maximális száma a kiválasztott menüben",
         "pop_char_level": "Mindig mutassa a bónusz értékét (szintenként) a karaktered szintjéhez",
         "inv_cld_reminder": "Emlékeztess, amikor újra használhatom a hosszú lejáratú tárgyakat",
         "inv_cld_reminder_playsound": "Értesítő hangok némítása",
         "pop_job_tooltip": "Fejlesztett munka popup",
         "fb_char_icons": "Kaszt szerinti ikonok az erődharc előnézeti ablakában",
-        "mw_recipes": "Figyeld a megtanulható recepteket",
-        "mw_buyouts_only": "Buyouts only",
-        "mw_push_notifications": "Enable push notifications",
-        "mw_scan_limit": "Maximum number of saved scans (per item) from a different player",
         "quest_color": "Change the color of quests that I can complete",
         "inv_size": "Smaller inventory",
         "inv_max_slots": "Maximum number of rows in the inventory %1 note: higher numbers causing lag while scrolling",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Karácsonyi Vásár"
         ],
@@ -435,5 +390,15 @@
         "south": "South Wall",
         "west": "West Wall",
         "east": "East Wall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }

@@ -176,47 +176,14 @@
         "total_market_price": "Total Marktpreis",
         "total": "Total"
     },
-    "market_watcher": {
-        "add_name": "MarketWatcher",
-        "add_item": "Verfolgen",
-        "offer_count": "und %1 andere Einträge",
-        "time_left": "Zeit übrig",
-        "price": "Preis",
-        "bid": "Gebot",
-        "bid_now": "Zeige am Markt",
-        "watched": "Verfolgte Items",
-        "collections": "Sammlungen",
-        "last_scan": "Letzter Scan",
-        "buy_trader": "Händler zeigen",
-        "import": "Items importieren",
-        "export": "Items exportieren",
-        "progress_page": "Lade Seite",
-        "progress_title": "Scanne Markt",
-        "progress_found": "Gesehen",
-        "remove_all": "Alle entfernen",
-        "curr_bid": "aktuelles Gebot",
-        "no_bids": "Keine Gebote",
-        "no_select": "Kein Item ausgewählt",
-        "buffs": "Buffs",
-        "push_notification_text_single": "%tem wurde von %player für %dollars gesehen",
-        "threshold": "Grenzwert",
-        "below_threshold": "Unter Grenzwert",
-        "above_threshold": "Über Grenzwert",
-        "bid_threshold": "Gebot Grenzwert",
-        "buyout_threshold": "Sofortkauf Grenzwert",
-        "filter_auctions": "Auktionen filtern",
-        "seller_name": "Verkäufer-Name",
-        "town_name": "Stadtname",
-        "cost_range": "Kosten-Berich",
-        "push_notification_text": "Es hat %1 neue Angebote deiner verfolgten Items"
-    },
     "features": {
         "preferences": "Einstellungen",
         "inventory_menus": "Inventar / Menü",
         "popup_tooltips": "Erweitertes Item-Popup",
         "other": "Weitere Einstellungen",
         "enable_addon": "Aktiviere %1 in dieser Welt",
-        "sort_inv": "Benutzerdefinierte Sortierung"
+        "sort_inv": "Benutzerdefinierte Sortierung",
+        "searching": "Searching"
     },
     "feat_strings": {
         "pop_item_id": "Zeige Item-ID",
@@ -233,10 +200,6 @@
         "pop_avg_dmg": "Zeige Durchschnittsschaden",
         "pop_bonus_calc": "Berechne den Effekt von EP-/LP-Buffs",
         "pop_trader": "Zeige Ladenstufe der kaufbaren Items",
-        "mw_item_price_tooltip": "Zeige Item-Marktpreis",
-        "mw_product_price_tooltip": "Zeig Produkt-Marktpreis",
-        "mw_bbcode_tooltip": "Zeige Marktpreis bei verlinkten Items",
-        "mw_alert_playsound": "Alarmton aus",
         "ml_market_collector": "MarketCollector aktivieren",
         "ml_sleep": "SleepMenu aktivieren",
         "ml_npc": "NPC locator aktivieren",
@@ -246,28 +209,20 @@
         "fb_online_status": "Onlinestatus auf der FK-Karte anzeigen",
         "fb_ranks": "Ränge auf der FK-Karte zeigen",
         "fb_ali_name": "Bündnisname im Stadtprofil zeigen",
-        "mw_clear_time": "Lösche Scan-Daten älter als",
-        "mw_collections": "Alarm, wenn Items für Sammlung gefunden",
-        "mw_trader": "Alarm, wenn der Händler ein verfolgtes Item anbietet",
         "fb_count": "Zeige Anzahl aktiver Fortkämpfe",
         "chat_smart": "Links im Chat umwandeln",
-        "mw_status": "Markt-Scanstatus zeigen",
         "inv_menu_size": "Maximale Anzahl Zeilen im Dropdown-Menü (Set-Suche)",
         "pop_char_level": "(pro Stufe)-Boni immer auf deine Stufe umrechnen",
         "inv_cld_reminder": "Melde, wenn der Countdown bestimmter Beutel abgelaufen ist",
         "inv_cld_reminder_playsound": "Erinnerungston stummschalten",
         "pop_job_tooltip": "Verbessere das Pop-Up der Arbeiten",
         "fb_char_icons": "Charakterklasse-Icon im FK-Vorbereitungsfenster",
-        "mw_recipes": "Rezepte verfolgen",
-        "mw_buyouts_only": "Nur Sofortkauf",
-        "mw_push_notifications": "Benachrichtigungen erlauben",
-        "mw_scan_limit": "Maximum der gespeicherten Scans anderer Spieler",
         "quest_color": "Abschliessbare Quests farbig hervorheben.",
         "inv_size": "Kleineres Inventar",
         "inv_max_slots": "Maximale Anzahl an Reihen im Inventar %1 (Höhere Werte können Ruckeln verursachen beim Scrollen)",
         "smart_speed_set": "Smarter speed set calculation (without losing HP if possible)"
     },
-    "keyWords": {
+    "events": {
         "xmas": [
             "Weihnachten"
         ],
@@ -435,5 +390,15 @@
         "south": "Südwall",
         "west": "Westwall",
         "east": "Ostwall"
+    },
+    "keybinds": {
+        "exclude": "Exclude",
+        "exact": "Exact name",
+        "color": "Color",
+        "recipe": "Recipe",
+        "tooltip": "Tooltip",
+        "filter_in": "Filter - include",
+        "filter_out": "Filter - exclude",
+        "separator": "Search separator"
     }
 }
