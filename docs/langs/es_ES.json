@@ -283,7 +283,8 @@
         "later": "Más tarde",
         "reset": "Reiniciar",
         "u_sure": "¿Estás seguro?",
-        "processing": "Procesando.."
+        "processing": "Procesando..",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "Regeneración",
