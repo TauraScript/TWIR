@@ -282,7 +282,8 @@
         "later": "İndirme",
         "reset": "Sıfırla",
         "u_sure": "Emin misiniz?",
-        "processing": "İşleniyor"
+        "processing": "İşleniyor",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "Yenileme",
