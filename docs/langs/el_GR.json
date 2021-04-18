@@ -282,7 +282,8 @@
         "later": "Αργότερα",
         "reset": "Επαναφορά",
         "u_sure": "Είστε σίγουροι;",
-        "processing": "Επεξεργασία.."
+        "processing": "Επεξεργασία..",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "Αναγένηση",
