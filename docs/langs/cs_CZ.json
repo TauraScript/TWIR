@@ -183,7 +183,7 @@
         "other": "Ostatní preference",
         "enable_addon": "Povolit %1 na tomto světe",
         "sort_inv": "Vlastní třídění",
-        "searching": "Searching"
+        "searching": "Vyhledávaní"
     },
     "feat_strings": {
         "pop_item_id": "Zobrazit ID u každého předmětu",
@@ -284,7 +284,8 @@
         "later": "Později",
         "reset": "Resetovat",
         "u_sure": "Opravdu?",
-        "processing": "Pracuji.."
+        "processing": "Pracuji..",
+        "search_prefix": "Přiřadit předponu vyhledávání"
     },
     "calc": {
         "regen": "Regenerace",
@@ -394,13 +395,13 @@
         "east": "Východní hradba"
     },
     "keybinds": {
-        "exclude": "Exclude",
-        "exact": "Exact name",
-        "color": "Color",
-        "recipe": "Recipe",
-        "tooltip": "Tooltip",
-        "filter_in": "Filter - include",
-        "filter_out": "Filter - exclude",
-        "separator": "Search separator"
+        "exclude": "Vyloučit z vyhledávaní",
+        "exact": "Přesný název",
+        "color": "Barva",
+        "recipe": "Suroviny pro výrobu",
+        "tooltip": "Popis předmětu",
+        "filter_in": "Filter - zahrnout",
+        "filter_out": "Filter - vyloučit",
+        "separator": "Oddělovač ve vyhledávaní"
     }
 }
