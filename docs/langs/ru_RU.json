@@ -282,7 +282,8 @@
         "later": "потом",
         "reset": "Reset",
         "u_sure": "Are you sure?",
-        "processing": "Processing.."
+        "processing": "Processing..",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "регенерация",
