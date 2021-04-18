@@ -284,7 +284,8 @@
         "later": "Depois",
         "reset": "Redefinir",
         "u_sure": "Tem certeza?",
-        "processing": "Processing.."
+        "processing": "Processing..",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "Regeneração",
