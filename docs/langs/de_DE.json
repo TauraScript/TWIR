@@ -282,7 +282,8 @@
         "later": "Später",
         "reset": "Zurücksetzen",
         "u_sure": "Sicher?",
-        "processing": "Lädt.."
+        "processing": "Lädt..",
+        "search_prefix": "Assign a search prefix"
     },
     "calc": {
         "regen": "Regeneration",
