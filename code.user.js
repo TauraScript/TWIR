@@ -256,7 +256,8 @@
                         return void 0 !== this[e] && this[e]
                     }
                 },
-                setsCache: {},
+                setsCache:
+                {},
                 jobsCache: '{"1":{"ID":"1","shortname":"swine","groupid":"12","dollar":"13.17","experience":"7.25","malus":"1","danger":"1","luck":"0","level":"4","skills":["animal","animal","leadership","endurance","tough"],"yields":[{"itemID":"700000","ID":"1","prob":"43.18"}]},"2":{"ID":"2","shortname":"scarecrow","groupid":"7","dollar":"8.37","experience":"11.5","malus":"0","danger":"20","luck":"2","level":"3","skills":["animal","tactic","pitfall","shot","build"],"yields":[{"itemID":"757000","ID":"2","prob":"57.58"}]},"3":{"ID":"3","shortname":"wanted","groupid":"27","dollar":"11.17","experience":"11.49","malus":"0","danger":"10","luck":"0","level":"4","skills":["pitfall","finger_dexterity","hide","ride","endurance"],"yields":[{"itemID":"743000","ID":"3","prob":"24.94"}]},"4":{"ID":"4","shortname":"tabacco","groupid":"7","dollar":"17.57","experience":"7.33","malus":"0","danger":"2","luck":"2","level":"3","skills":["trade","tactic","finger_dexterity","finger_dexterity","tough"],"yields":[{"itemID":"702000","ID":"4","prob":"38.55"}]},"5":{"ID":"5","shortname":"cotton","groupid":"7","dollar":"8.46","experience":"12.93","malus":"1","danger":"3","luck":"0","level":"3","skills":["trade","leadership","finger_dexterity","endurance","tough"],"yields":[{"itemID":"704000","ID":"5","prob":"52.8"}]},"6":{"ID":"6","shortname":"sugar","groupid":"8","dollar":"16.46","experience":"9.73","malus":"3","danger":"1","luck":"4","level":"4","skills":["trade","repair","finger_dexterity","tough","punch"],"yields":[{"itemID":"703000","ID":"6","prob":"33.59"}]},"7":{"ID":"7","shortname":"angle","groupid":"3","dollar":"8.32","experience":"7.25","malus":"2","danger":"2","luck":"6","level":"3","skills":["repair","swim","swim","swim","hide"],"yields":[{"itemID":"782000","ID":"7","prob":"4.95"},{"itemID":"705000","ID":"7","prob":"36.52"}]},"8":{"ID":"8","shortname":"cereal","groupid":"7","dollar":"11.17","experience":"15.25","malus":"10","danger":"4","luck":"2","level":"5","skills":["finger_dexterity","ride","endurance","tough","punch"],"yields":[{"itemID":"701000","ID":"8","prob":"48.01"}]},"9":{"ID":"9","shortname":"berry","groupid":"10","dollar":"11.17","experience":"15.25","malus":"15","danger":"6","luck":"5","level":"6","skills":["finger_dexterity","finger_dexterity","hide","tough","tough"],"yields":[{"itemID":"706000","ID":"9","prob":"23.04"}]},"10":{"ID":"10","shortname":"sheeps","groupid":"12","dollar":"13.17","experience":"14.18","malus":"11","danger":"2","luck":"0","level":"5","skills":["animal","animal","leadership","endurance","tough"],"yields":[{"itemID":"707000","ID":"10","prob":"43.18"}]},"11":{"ID":"11","shortname":"newspaper","groupid":"27","dollar":"17.59","experience":"7.25","malus":"8","danger":"1","luck":"2","level":"5","skills":["appearance","trade","trade","ride","ride"],"yields":[{"itemID":"744000","ID":"11","prob":"53.82"}]},"12":{"ID":"12","shortname":"cut","groupid":"8","dollar":"16.32","experience":"16.31","malus":"21","danger":"3","luck":"3","level":"6","skills":["animal","animal","finger_dexterity","ride","punch"],"yields":[{"itemID":"765000","ID":"12","prob":"9.67"}]},"13":{"ID":"13","shortname":"grinding","groupid":"14","dollar":"22.74","experience":"16.31","malus":"24","danger":"5","luck":"0","level":"7","skills":["finger_dexterity","ride","endurance","tough","punch"],"yields":[{"itemID":"745000","ID":"13","prob":"33.59"}]},"14":{"ID":"14","shortname":"corn","groupid":"8","dollar":"14.97","experience":"16.31","malus":"22","danger":"5","luck":"8","level":"7","skills":["appearance","animal","trade","tactic","finger_dexterity"],"yields":[{"itemID":"748000","ID":"14","prob":"24.01"}]},"15":{"ID":"15","shortname":"beans","groupid":"8","dollar":"20.97","experience":"16.31","malus":"22","danger":"5","luck":"4","level":"7","skills":["animal","tactic","leadership","finger_dexterity","endurance"],"yields":[{"itemID":"746000","ID":"15","prob":"24.94"}]},"16":{"ID":"16","shortname":"fort_guard","groupid":"20","dollar":"13.17","experience":"18.18","malus":"24","danger":"7","luck":"2","level":"10","skills":["appearance","appearance","leadership","shot","reflex"],"yields":[{"itemID":"758000","ID":"16","prob":"1.9"}]},"17":{"ID":"17","shortname":"tanning","groupid":"14","dollar":"23.59","experience":"22.49","malus":"39","danger":"18","luck":"5","level":"9","skills":["trade","finger_dexterity","swim","endurance","tough"],"yields":[{"itemID":"712000","ID":"17","prob":"33.59"}]},"18":{"ID":"18","shortname":"digging","groupid":"6","dollar":"22.74","experience":"11.49","malus":"30","danger":"7","luck":"5","level":"8","skills":["trade","trade","swim","reflex","tough"],"yields":[{"itemID":"1791000","ID":"18","prob":"1.9"},{"itemID":"708000","ID":"18","prob":"27"}]},"19":{"ID":"19","shortname":"grave","groupid":"22","dollar":"26.59","experience":"20.47","malus":"75","danger":"9","luck":"22","level":"19","skills":["ride","endurance","tough","punch","build"],"yields":[{"itemID":"736000","ID":"19","prob":"17.28"}]},"20":{"ID":"20","shortname":"turkey","groupid":"1","dollar":"13.17","experience":"21.9","malus":"42","danger":"21","luck":"7","level":"8","skills":["pitfall","shot","hide","hide","reflex"],"yields":[{"itemID":"709000","ID":"20","prob":"24.94"}]},"21":{"ID":"21","shortname":"rail","groupid":"25","dollar":"21.97","experience":"24.31","malus":"44","danger":"10","luck":"5","level":"11","skills":["leadership","repair","endurance","build","build"],"yields":[{"itemID":"766000","ID":"21","prob":"62.51"}]},"22":{"ID":"22","shortname":"cow","groupid":"12","dollar":"16.32","experience":"23.74","malus":"38","danger":"11","luck":"0","level":"9","skills":["animal","tactic","reflex","ride","ride"],"yields":[{"itemID":"710000","ID":"22","prob":"28.8"}]},"23":{"ID":"23","shortname":"fence","groupid":"13","dollar":"18.8","experience":"19.74","malus":"35","danger":"6","luck":"5","level":"8","skills":["animal","animal","repair","repair","finger_dexterity"],"yields":[{"itemID":"747000","ID":"23","prob":"21.1"}]},"24":{"ID":"24","shortname":"saw","groupid":"14","dollar":"30.97","experience":"20.47","malus":"63","danger":"32","luck":"6","level":"15","skills":["trade","finger_dexterity","finger_dexterity","reflex","reflex"],"yields":[{"itemID":"742000","ID":"24","prob":"9.67"}]},"25":{"ID":"25","shortname":"stone","groupid":"5","dollar":"27.25","experience":"17.28","malus":"52","danger":"33","luck":"9","level":"13","skills":["reflex","endurance","punch","punch","punch"],"yields":[{"itemID":"716000","ID":"25","prob":"43.18"}]},"26":{"ID":"26","shortname":"straighten","groupid":"3","dollar":"19.97","experience":"26.39","malus":"84","danger":"12","luck":"15","level":"21","skills":["tactic","swim","swim","swim","build"],"yields":[{"itemID":"795000","ID":"26","prob":"38.51"}]},"27":{"ID":"27","shortname":"wood","groupid":"10","dollar":"27.97","experience":"14.18","malus":"47","danger":"21","luck":"2","level":"12","skills":["appearance","reflex","endurance","punch","punch"],"yields":[{"itemID":"711000","ID":"27","prob":"19.27"}]},"28":{"ID":"28","shortname":"irrigation","groupid":"25","dollar":"18.8","experience":"21.19","malus":"44","danger":"6","luck":"15","level":"11","skills":["tactic","leadership","repair","ride","build"],"yields":[{"itemID":"736000","ID":"28","prob":"22.07"}]},"29":{"ID":"29","shortname":"brand","groupid":"12","dollar":"19.97","experience":"27.97","malus":"49","danger":"35","luck":"0","level":"12","skills":["animal","animal","pitfall","reflex","ride"],"yields":[{"itemID":"740000","ID":"29","prob":"12.47"}]},"30":{"ID":"30","shortname":"wire","groupid":"13","dollar":"27.25","experience":"21.19","malus":"57","danger":"30","luck":"6","level":"14","skills":["animal","pitfall","finger_dexterity","finger_dexterity","build"],"yields":[{"itemID":"739000","ID":"30","prob":"22.07"}]},"31":{"ID":"31","shortname":"dam","groupid":"3","dollar":"14.97","experience":"24.31","malus":"53","danger":"41","luck":"9","level":"13","skills":["animal","tactic","tactic","swim","swim"],"yields":[{"itemID":"714000","ID":"31","prob":"33.59"}]},"32":{"ID":"32","shortname":"gems","groupid":"5","dollar":"32.17","experience":"16.31","malus":"74","danger":"4","luck":"8","level":"17","skills":["trade","trade","finger_dexterity","swim","swim"],"yields":[{"itemID":"720000","ID":"32","prob":"11.52"}]},"33":{"ID":"33","shortname":"claim","groupid":"24","dollar":"35.17","experience":"12.93","malus":"56","danger":"29","luck":"4","level":"14","skills":["appearance","trade","swim","endurance","build"],"yields":[{"itemID":"755000","ID":"33","prob":"19.27"}]},"34":{"ID":"34","shortname":"chuck_wagon","groupid":"17","dollar":"16.32","experience":"26.98","malus":"133","danger":"11","luck":"42","level":"31","skills":["trade","leadership","repair","repair","ride"],"yields":[{"itemID":"722000","ID":"34","prob":"14.39"}]},"35":{"ID":"35","shortname":"break_in","groupid":"11","dollar":"24.39","experience":"30.98","malus":"71","danger":"52","luck":"10","level":"16","skills":["animal","pitfall","reflex","ride","ride"],"yields":[{"itemID":"787000","ID":"35","prob":"17.28"}]},"36":{"ID":"36","shortname":"trade","groupid":"23","dollar":"25.97","experience":"11.49","malus":"84","danger":"12","luck":"25","level":"21","skills":["appearance","appearance","trade","trade","pitfall"],"yields":[{"itemID":"774000","ID":"36","prob":"0.94"},{"itemID":"715000","ID":"36","prob":"24.94"}]},"37":{"ID":"37","shortname":"mast","groupid":"25","dollar":"29.8","experience":"27.97","malus":"74","danger":"14","luck":"3","level":"18","skills":["repair","swim","punch","build","build"],"yields":[{"itemID":"767000","ID":"37","prob":"13.51"}]},"38":{"ID":"38","shortname":"spring","groupid":"24","dollar":"20.97","experience":"31.32","malus":"102","danger":"19","luck":"23","level":"25","skills":["tactic","leadership","swim","endurance","build"],"yields":[{"itemID":"741000","ID":"38","prob":"15.36"}]},"39":{"ID":"39","shortname":"beaver","groupid":"1","dollar":"35.59","experience":"23.74","malus":"119","danger":"21","luck":"6","level":"30","skills":["pitfall","pitfall","pitfall","hide","hide"],"yields":[{"itemID":"771000","ID":"39","prob":"22.07"},{"itemID":"714000","ID":"39","prob":"32.64"}]},"40":{"ID":"40","shortname":"coal","groupid":"5","dollar":"34.59","experience":"21.9","malus":"85","danger":"13","luck":"0","level":"22","skills":["trade","finger_dexterity","reflex","punch","punch"],"yields":[{"itemID":"721000","ID":"40","prob":"25.9"}]},"41":{"ID":"41","shortname":"print","groupid":"14","dollar":"34.59","experience":"25.39","malus":"82","danger":"7","luck":"5","level":"20","skills":["leadership","repair","finger_dexterity","endurance","tough"],"yields":[{"itemID":"744000","ID":"41","prob":"62.51"}]},"42":{"ID":"42","shortname":"fishing","groupid":"3","dollar":"17.59","experience":"26.98","malus":"90","danger":"38","luck":"23","level":"23","skills":["leadership","pitfall","pitfall","swim","swim"],"yields":[{"itemID":"717000","ID":"42","prob":"54.71"},{"itemID":"705000","ID":"42","prob":"31.68"}]},"43":{"ID":"43","shortname":"trainstation","groupid":"25","dollar":"23.59","experience":"36.31","malus":"112","danger":"15","luck":"7","level":"28","skills":["leadership","repair","finger_dexterity","build","build"],"yields":[{"itemID":"759000","ID":"43","prob":"10.55"}]},"44":{"ID":"44","shortname":"windmeel","groupid":"25","dollar":"39.97","experience":"34.98","malus":"163","danger":"18","luck":"6","level":"38","skills":["tactic","leadership","ride","endurance","build"],"yields":[{"itemID":"756000","ID":"44","prob":"4.95"}]},"45":{"ID":"45","shortname":"explore","groupid":"24","dollar":"8.32","experience":"35.65","malus":"111","danger":"37","luck":"22","level":"27","skills":["leadership","shot","swim","ride","endurance"],"yields":[{"itemID":"760000","ID":"45","prob":"14.39"}]},"46":{"ID":"46","shortname":"float","groupid":"4","dollar":"30.97","experience":"35.65","malus":"137","danger":"52","luck":"0","level":"33","skills":["tactic","swim","swim","swim","reflex"],"yields":[{"itemID":"711000","ID":"46","prob":"52.81"}]},"47":{"ID":"47","shortname":"bridge","groupid":"4","dollar":"27.25","experience":"31.32","malus":"107","danger":"53","luck":"18","level":"26","skills":["repair","swim","swim","endurance","build"],"yields":[{"itemID":"761000","ID":"47","prob":"13.51"}]},"48":{"ID":"48","shortname":"springe","groupid":"11","dollar":"34.17","experience":"35.65","malus":"134","danger":"42","luck":"0","level":"32","skills":["animal","animal","ride","ride","endurance"],"yields":[{"itemID":"749000","ID":"48","prob":"17.28"}]},"49":{"ID":"49","shortname":"coffin","groupid":"28","dollar":"39.97","experience":"17.28","malus":"118","danger":"20","luck":"15","level":"29","skills":["appearance","repair","repair","reflex","build"],"yields":[{"itemID":"734000","ID":"49","prob":"19.27"}]},"50":{"ID":"50","shortname":"dynamite","groupid":"17","dollar":"30.97","experience":"20.47","malus":"144","danger":"93","luck":"64","level":"35","skills":["appearance","finger_dexterity","shot","reflex","ride"],"yields":[{"itemID":"737000","ID":"50","prob":"24.01"}]},"51":{"ID":"51","shortname":"coyote","groupid":"1","dollar":"25.97","experience":"34.98","malus":"140","danger":"45","luck":"26","level":"34","skills":["pitfall","shot","hide","endurance","endurance"],"yields":[{"itemID":"718000","ID":"51","prob":"13.51"}]},"52":{"ID":"52","shortname":"buffalo","groupid":"1","dollar":"31.49","experience":"40.8","malus":"178","danger":"72","luck":"0","level":"41","skills":["animal","tactic","leadership","pitfall","ride"],"yields":[{"itemID":"724000","ID":"52","prob":"10.55"}]},"53":{"ID":"53","shortname":"fort","groupid":"26","dollar":"35.97","experience":"43.17","malus":"224","danger":"35","luck":"17","level":"49","skills":["leadership","leadership","repair","pitfall","build"],"yields":[{"itemID":"762000","ID":"53","prob":"5.76"}]},"54":{"ID":"54","shortname":"indians","groupid":"23","dollar":"22.74","experience":"21.9","malus":"223","danger":"34","luck":"63","level":"48","skills":["appearance","appearance","trade","trade","pitfall"],"yields":[{"itemID":"719000","ID":"54","prob":"10.55"}]},"55":{"ID":"55","shortname":"clearing","groupid":"10","dollar":"46.97","experience":"17.28","malus":"178","danger":"16","luck":"9","level":"41","skills":["tactic","leadership","reflex","punch","punch"],"yields":[{"itemID":"711000","ID":"55","prob":"71.98"}]},"56":{"ID":"56","shortname":"silver","groupid":"6","dollar":"51.17","experience":"17.28","malus":"193","danger":"32","luck":"0","level":"42","skills":["trade","trade","finger_dexterity","tough","punch"],"yields":[{"itemID":"725000","ID":"56","prob":"16.31"}]},"57":{"ID":"57","shortname":"diligence_guard","groupid":"20","dollar":"36.49","experience":"44.74","malus":"403","danger":"43","luck":"45","level":"71","skills":["leadership","leadership","repair","shot","ride"],"yields":[{"itemID":"780000","ID":"57","prob":"24.94"}]},"58":{"ID":"58","shortname":"wolf","groupid":"2","dollar":"29.8","experience":"41.1","malus":"207","danger":"67","luck":"15","level":"44","skills":["animal","pitfall","pitfall","hide","hide"],"yields":[{"itemID":"763000","ID":"58","prob":"10.55"}]},"59":{"ID":"59","shortname":"track","groupid":"20","dollar":"21.97","experience":"40.25","malus":"212","danger":"33","luck":"30","level":"45","skills":["tactic","leadership","leadership","hide","hide"],"yields":[{"itemID":"778000","ID":"59","prob":"11.52"}]},"60":{"ID":"60","shortname":"ox","groupid":"15","dollar":"47.59","experience":"31.74","malus":"237","danger":"43","luck":"18","level":"53","skills":["animal","pitfall","pitfall","hide","reflex"],"yields":[{"itemID":"787000","ID":"60","prob":"12.47"}]},"61":{"ID":"61","shortname":"guard","groupid":"20","dollar":"32.17","experience":"32.13","malus":"221","danger":"4","luck":"38","level":"47","skills":["appearance","appearance","shot","reflex","punch"],"yields":[{"itemID":"750000","ID":"61","prob":"0.94"}]},"62":{"ID":"62","shortname":"bible","groupid":"28","dollar":"16.32","experience":"40.59","malus":"235","danger":"77","luck":"52","level":"52","skills":["appearance","appearance","trade","ride","tough"],"yields":[{"itemID":"768000","ID":"62","prob":"15.36"}]},"63":{"ID":"63","shortname":"ponyexpress","groupid":"17","dollar":"25.97","experience":"36.64","malus":"225","danger":"44","luck":"51","level":"50","skills":["animal","shot","ride","ride","endurance"],"yields":[{"itemID":"779000","ID":"63","prob":"4.95"}]},"64":{"ID":"64","shortname":"weapons","groupid":"23","dollar":"25.97","experience":"32.13","malus":"257","danger":"82","luck":"72","level":"54","skills":["trade","trade","repair","shot","hide"],"yields":[{"itemID":"783000","ID":"64","prob":"1.9"}]},"65":{"ID":"65","shortname":"dead","groupid":"22","dollar":"25.17","experience":"21.9","malus":"265","danger":"34","luck":"90","level":"55","skills":["repair","finger_dexterity","finger_dexterity","hide","tough"],"yields":[{"itemID":"774000","ID":"65","prob":"0.94"},{"itemID":"723000","ID":"65","prob":"0.94"}]},"66":{"ID":"66","shortname":"grizzly","groupid":"2","dollar":"32.17","experience":"44.93","malus":"280","danger":"71","luck":"35","level":"57","skills":["animal","pitfall","pitfall","shot","hide"],"yields":[{"itemID":"731000","ID":"66","prob":"1.9"}]},"67":{"ID":"67","shortname":"oil","groupid":"22","dollar":"53.17","experience":"27.97","malus":"294","danger":"7","luck":"20","level":"59","skills":["trade","leadership","endurance","tough","build"],"yields":[{"itemID":"752000","ID":"67","prob":"14.39"}]},"68":{"ID":"68","shortname":"treasure_hunting","groupid":"22","dollar":"29.17","experience":"25.39","malus":"293","danger":"24","luck":"83","level":"58","skills":["tactic","repair","repair","hide","hide"],"yields":[{"itemID":"726000","ID":"68","prob":"0.94"}]},"69":{"ID":"69","shortname":"army","groupid":"19","dollar":"44.65","experience":"44.47","malus":"298","danger":"35","luck":"17","level":"60","skills":["appearance","pitfall","shot","swim","endurance"],"yields":[{"itemID":"727000","ID":"69","prob":"3.84"}]},"70":{"ID":"70","shortname":"steal","groupid":"15","dollar":"42.17","experience":"37.28","malus":"371","danger":"66","luck":"74","level":"67","skills":["finger_dexterity","pitfall","shot","hide","reflex"],"yields":[{"itemID":"728000","ID":"70","prob":"3.84"}]},"71":{"ID":"71","shortname":"mercenary","groupid":"19","dollar":"55.39","experience":"37.9","malus":"331","danger":"65","luck":"23","level":"63","skills":["appearance","repair","shot","swim","tough"],"yields":[{"itemID":"1708000","ID":"71","prob":"45.1"}]},"72":{"ID":"72","shortname":"bandits","groupid":"18","dollar":"33.59","experience":"44.2","malus":"384","danger":"83","luck":"85","level":"69","skills":["tactic","leadership","hide","endurance","tough"],"yields":[{"itemID":"729000","ID":"72","prob":"5.76"}]},"73":{"ID":"73","shortname":"aggression","groupid":"16","dollar":"51.65","experience":"28.8","malus":"421","danger":"86","luck":"78","level":"75","skills":["appearance","tactic","pitfall","hide","hide"],"yields":[{"itemID":"774000","ID":"73","prob":"0.94"},{"itemID":"730000","ID":"73","prob":"2.87"}]},"74":{"ID":"74","shortname":"diligence_aggression","groupid":"16","dollar":"40.25","experience":"43.74","malus":"475","danger":"67","luck":"95","level":"83","skills":["appearance","tactic","leadership","pitfall","shot"],"yields":[{"itemID":"733000","ID":"74","prob":"14.39"}]},"75":{"ID":"75","shortname":"bounty","groupid":"18","dollar":"55.39","experience":"30.98","malus":"425","danger":"72","luck":"79","level":"76","skills":["appearance","pitfall","shot","endurance","punch"],"yields":[{"itemID":"1756000","ID":"75","prob":"33.59"}]},"76":{"ID":"76","shortname":"captured","groupid":"20","dollar":"30.97","experience":"42.65","malus":"437","danger":"44","luck":"85","level":"79","skills":["tactic","tactic","hide","reflex","endurance"],"yields":[{"itemID":"764000","ID":"76","prob":"7.68"}]},"77":{"ID":"77","shortname":"train","groupid":"16","dollar":"48.49","experience":"47.04","malus":"505","danger":"96","luck":"92","level":"86","skills":["trade","pitfall","shot","hide","endurance"],"yields":[{"itemID":"1755000","ID":"77","prob":"1.9"}]},"78":{"ID":"78","shortname":"burglary","groupid":"15","dollar":"52.25","experience":"31.74","malus":"517","danger":"26","luck":"81","level":"87","skills":["trade","tactic","hide","hide","endurance"],"yields":[{"itemID":"786000","ID":"78","prob":"3.84"}]},"79":{"ID":"79","shortname":"quackery","groupid":"21","dollar":"47.97","experience":"37.28","malus":"315","danger":"67","luck":"52","level":"62","skills":["appearance","trade","pitfall","shot","hide"],"yields":[{"itemID":"794000","ID":"79","prob":"11.52"}]},"80":{"ID":"80","shortname":"peace","groupid":"19","dollar":"35.97","experience":"42.49","malus":"366","danger":"44","luck":"76","level":"66","skills":["appearance","trade","shot","hide","endurance"],"yields":[{"itemID":"751000","ID":"80","prob":"7.68"}]},"82":{"ID":"82","shortname":"ship","groupid":"28","dollar":"52.8","experience":"32.13","malus":"347","danger":"14","luck":"15","level":"64","skills":["leadership","leadership","swim","swim","punch"],"yields":[{"itemID":"788000","ID":"82","prob":"13.51"}]},"83":{"ID":"83","shortname":"smuggle","groupid":"17","dollar":"46.97","experience":"35.65","malus":"410","danger":"56","luck":"83","level":"72","skills":["appearance","trade","shot","swim","hide"],"yields":[{"itemID":"729000","ID":"83","prob":"24.94"}]},"84":{"ID":"84","shortname":"ranch","groupid":"26","dollar":"33.59","experience":"40.59","malus":"220","danger":"24","luck":"17","level":"46","skills":["animal","ride","endurance","build","build"],"yields":[{"itemID":"784000","ID":"84","prob":"33.59"}]},"85":{"ID":"85","shortname":"iron","groupid":"5","dollar":"43.59","experience":"30.98","malus":"176","danger":"29","luck":"15","level":"40","skills":["repair","finger_dexterity","reflex","punch","build"],"yields":[{"itemID":"790000","ID":"85","prob":"27"},{"itemID":"753000","ID":"85","prob":"1.9"}]},"86":{"ID":"86","shortname":"agave","groupid":"9","dollar":"32.17","experience":"34.65","malus":"152","danger":"27","luck":"12","level":"37","skills":["finger_dexterity","endurance","tough","tough","punch"],"yields":[{"itemID":"792000","ID":"86","prob":"13.51"}]},"87":{"ID":"87","shortname":"tomato","groupid":"9","dollar":"24.39","experience":"20.47","malus":"42","danger":"11","luck":"7","level":"10","skills":["trade","finger_dexterity","tactic","leadership","ride"],"yields":[{"itemID":"793000","ID":"87","prob":"40.31"}]},"88":{"ID":"88","shortname":"horseshoe","groupid":"11","dollar":"25.17","experience":"29.25","malus":"92","danger":"23","luck":"9","level":"24","skills":["animal","animal","ride","ride","punch"],"yields":[{"itemID":"754000","ID":"88","prob":"21.1"}]},"90":{"ID":"90","shortname":"fire","groupid":"24","dollar":"25.97","experience":"34.32","malus":"228","danger":"45","luck":"65","level":"51","skills":["tactic","leadership","reflex","tough","build"],"yields":[{"itemID":"781000","ID":"90","prob":"1.9"}]},"91":{"ID":"91","shortname":"orange","groupid":"9","dollar":"25.17","experience":"27.97","malus":"66","danger":"21","luck":"10","level":"15","skills":["tactic","repair","pitfall","reflex","endurance"],"yields":[{"itemID":"791000","ID":"91","prob":"24.01"}]},"92":{"ID":"92","shortname":"muck_out","groupid":"13","dollar":"14.96","experience":"14.21","malus":"7","danger":"6","luck":"2","level":"6","skills":["animal","animal","repair","ride","tough"],"yields":[{"itemID":"797000","ID":"92","prob":"14.38"}]},"93":{"ID":"93","shortname":"shoes","groupid":"27","dollar":"13.17","experience":"9.65","malus":"0","danger":"2","luck":"3","level":"4","skills":["appearance","trade","finger_dexterity","pitfall","hide"],"yields":[{"itemID":"789000","ID":"93","prob":"31.68"}]},"94":{"ID":"94","shortname":"socks_darn","groupid":"27","dollar":"8.32","experience":"12.93","malus":"0","danger":"2","luck":"0","level":"5","skills":["finger_dexterity","finger_dexterity","endurance","tough","tough"],"yields":[{"itemID":"1807000","ID":"94","prob":"24.01"}]},"95":{"ID":"95","shortname":"potatoe","groupid":"9","dollar":"19.97","experience":"38.18","malus":"112","danger":"5","luck":"5","level":"28","skills":["finger_dexterity","endurance","endurance","tough","tough"],"yields":[{"itemID":"1808000","ID":"95","prob":"52.81"}]},"96":{"ID":"96","shortname":"feed_animal","groupid":"13","dollar":"27.25","experience":"40.25","malus":"146","danger":"20","luck":"10","level":"36","skills":["animal","animal","leadership","tough","punch"],"yields":[{"itemID":"1809000","ID":"96","prob":"35.52"}]},"97":{"ID":"97","shortname":"pumpkin","groupid":"9","dollar":"41.17","experience":"35.65","malus":"174","danger":"10","luck":"10","level":"39","skills":["tactic","endurance","tough","punch","punch"],"yields":[{"itemID":"1810000","ID":"97","prob":"44.14"}]},"98":{"ID":"98","shortname":"blueberries","groupid":"8","dollar":"43.59","experience":"32.13","malus":"199","danger":"15","luck":"35","level":"43","skills":["punch","finger_dexterity","ride","ride","tough"],"yields":[{"itemID":"1811000","ID":"98","prob":"43.18"}]},"99":{"ID":"99","shortname":"plant_trees","groupid":"10","dollar":"36.49","experience":"27.97","malus":"225","danger":"25","luck":"54","level":"50","skills":["tactic","finger_dexterity","ride","build","build"],"yields":[{"itemID":"1812000","ID":"99","prob":"22.07"}]},"100":{"ID":"100","shortname":"gather_feathers","groupid":"24","dollar":"41.8","experience":"26.98","malus":"275","danger":"15","luck":"60","level":"56","skills":["trade","tactic","repair","repair","finger_dexterity"],"yields":[{"itemID":"1813000","ID":"100","prob":"11.52"}]},"101":{"ID":"101","shortname":"lotus_gathering","groupid":"4","dollar":"44.32","experience":"35.65","malus":"350","danger":"20","luck":"35","level":"65","skills":["repair","finger_dexterity","swim","swim","tough"],"yields":[{"itemID":"1814000","ID":"101","prob":"4.95"}]},"102":{"ID":"102","shortname":"crab_hunting","groupid":"4","dollar":"48.49","experience":"39.17","malus":"375","danger":"12","luck":"35","level":"68","skills":["finger_dexterity","swim","swim","reflex","tough"],"yields":[{"itemID":"1815000","ID":"102","prob":"9.67"}]},"103":{"ID":"103","shortname":"teaching","groupid":"28","dollar":"44.32","experience":"45.19","malus":"400","danger":"23","luck":"5","level":"70","skills":["appearance","appearance","leadership","pitfall","endurance"],"yields":[{"itemID":"1816000","ID":"103","prob":"43.18"}]},"104":{"ID":"104","shortname":"sheriff_work","groupid":"19","dollar":"48.49","experience":"44.47","malus":"410","danger":"45","luck":"56","level":"73","skills":["appearance","leadership","shot","shot","reflex"],"yields":[{"itemID":"1817000","ID":"104","prob":"33.59"}]},"105":{"ID":"105","shortname":"sulfur_gathering","groupid":"6","dollar":"51.17","experience":"31.74","malus":"420","danger":"32","luck":"78","level":"74","skills":["repair","reflex","reflex","punch","punch"],"yields":[{"itemID":"1818000","ID":"105","prob":"52.81"}]},"106":{"ID":"106","shortname":"wildwater","groupid":"4","dollar":"53.32","experience":"43.97","malus":"425","danger":"57","luck":"30","level":"77","skills":["tactic","swim","swim","reflex","reflex"],"yields":[]},"107":{"ID":"107","shortname":"gambler","groupid":"21","dollar":"48.49","experience":"39.4","malus":"430","danger":"63","luck":"69","level":"78","skills":["appearance","trade","shot","hide","reflex"],"yields":[{"itemID":"1819000","ID":"107","prob":"33.59"}]},"108":{"ID":"108","shortname":"rattlesnake","groupid":"2","dollar":"49.97","experience":"35.97","malus":"440","danger":"73","luck":"71","level":"80","skills":["animal","pitfall","hide","reflex","reflex"],"yields":[{"itemID":"1820000","ID":"108","prob":"19.27"}]},"109":{"ID":"109","shortname":"salpeter_gathering","groupid":"6","dollar":"46.97","experience":"38.18","malus":"450","danger":"27","luck":"58","level":"81","skills":["repair","finger_dexterity","endurance","tough","tough"],"yields":[{"itemID":"1821000","ID":"109","prob":"43.18"}]},"110":{"ID":"110","shortname":"horse_transport","groupid":"11","dollar":"48.17","experience":"45.9","malus":"450","danger":"48","luck":"69","level":"82","skills":["animal","animal","leadership","ride","ride"],"yields":[{"itemID":"1822000","ID":"110","prob":"22.07"}]},"111":{"ID":"111","shortname":"rodeo","groupid":"21","dollar":"51.17","experience":"39.17","malus":"499","danger":"78","luck":"69","level":"84","skills":["animal","pitfall","ride","ride","endurance"],"yields":[{"itemID":"1823000","ID":"111","prob":"4.95"}]},"112":{"ID":"112","shortname":"travelling_salesman","groupid":"23","dollar":"45.97","experience":"35.97","malus":"500","danger":"67","luck":"97","level":"85","skills":["appearance","trade","trade","pitfall","tough"],"yields":[]},"113":{"ID":"113","shortname":"con_artist","groupid":"21","dollar":"51.65","experience":"47.49","malus":"520","danger":"83","luck":"35","level":"88","skills":["appearance","trade","tactic","pitfall","endurance"],"yields":[{"itemID":"1836000","ID":"113","prob":"15.36"}]},"114":{"ID":"114","shortname":"cougar","groupid":"2","dollar":"41.39","experience":"47.49","malus":"540","danger":"93","luck":"39","level":"89","skills":["animal","tactic","pitfall","shot","shot"],"yields":[{"itemID":"1824000","ID":"114","prob":"27"}]},"115":{"ID":"115","shortname":"indigo_gathering","groupid":"10","dollar":"54.17","experience":"43.74","malus":"590","danger":"69","luck":"29","level":"91","skills":["trade","tactic","finger_dexterity","finger_dexterity","reflex"],"yields":[{"itemID":"1825000","ID":"115","prob":"19.25"}]},"116":{"ID":"116","shortname":"alcohol","groupid":"17","dollar":"50.59","experience":"47.97","malus":"600","danger":"56","luck":"34","level":"92","skills":["leadership","shot","hide","hide","ride"],"yields":[{"itemID":"1826000","ID":"116","prob":"43.18"}]},"117":{"ID":"117","shortname":"lead_gathering","groupid":"6","dollar":"54.65","experience":"43.49","malus":"620","danger":"72","luck":"22","level":"93","skills":["leadership","finger_dexterity","repair","repair","punch"],"yields":[{"itemID":"1827000","ID":"117","prob":"52.81"}]},"118":{"ID":"118","shortname":"gem_gathering","groupid":"6","dollar":"55.17","experience":"44.93","malus":"640","danger":"77","luck":"23","level":"94","skills":["repair","shot","endurance","punch","punch"],"yields":[]},"119":{"ID":"119","shortname":"mission","groupid":"26","dollar":"55.39","experience":"45.9","malus":"570","danger":"38","luck":"54","level":"90","skills":["repair","endurance","punch","build","build"],"yields":[{"itemID":"1831000","ID":"119","prob":"11.52"}]},"120":{"ID":"120","shortname":"casino","groupid":"26","dollar":"51.65","experience":"48.13","malus":"650","danger":"47","luck":"23","level":"95","skills":["leadership","repair","build","build","build"],"yields":[{"itemID":"1832000","ID":"120","prob":"38.51"}]},"121":{"ID":"121","shortname":"marshall","groupid":"19","dollar":"54.17","experience":"47.74","malus":"700","danger":"94","luck":"60","level":"96","skills":["appearance","pitfall","shot","shot","ride"],"yields":[{"itemID":"1833000","ID":"121","prob":"3.84"}]},"122":{"ID":"122","shortname":"shatter_gang","groupid":"18","dollar":"53.32","experience":"42.98","malus":"725","danger":"99","luck":"89","level":"97","skills":["tactic","pitfall","hide","hide","endurance"],"yields":[]},"123":{"ID":"123","shortname":"bankrobbery","groupid":"16","dollar":"55.65","experience":"46.39","malus":"740","danger":"89","luck":"30","level":"98","skills":["trade","leadership","pitfall","hide","hide"],"yields":[{"itemID":"1837000","ID":"123","prob":"0.94"}]},"124":{"ID":"124","shortname":"free_slaves","groupid":"18","dollar":"53.32","experience":"48.39","malus":"750","danger":"92","luck":"28","level":"99","skills":["appearance","tactic","leadership","shot","swim"],"yields":[{"itemID":"1834000","ID":"124","prob":"16.31"}]},"125":{"ID":"125","shortname":"buffelo_bill","groupid":"21","dollar":"55.39","experience":"48.59","malus":"800","danger":"70","luck":"65","level":"100","skills":["appearance","appearance","animal","shot","ride"],"yields":[{"itemID":"1835000","ID":"125","prob":"11.52"}]},"126":{"ID":"126","shortname":"build_palisade","groupid":"26","dollar":"35.97","experience":"41.65","malus":"300","danger":"30","luck":"20","level":"66","skills":["leadership","repair","endurance","punch","build"],"yields":[]},"127":{"ID":"127","shortname":"spearfishing","groupid":"3","dollar":"11.17","experience":"7.25","malus":"2","danger":"20","luck":"2","level":"2","skills":["punch","punch","endurance","endurance","endurance"],"yields":[{"itemID":"2160000","ID":"127","prob":"95.98"}]},"128":{"ID":"128","shortname":"gather_spices","groupid":"7","dollar":"0","experience":"9.73","malus":"0","danger":"1","luck":"0","level":"1","skills":["punch","punch","punch","punch","punch"],"yields":[{"itemID":"2161000","ID":"128","prob":"95.98"}]},"129":{"ID":"129","shortname":"grind_coffee","groupid":"27","dollar":"11.17","experience":"9.73","malus":"2","danger":"20","luck":"2","level":"2","skills":["reflex","finger_dexterity","tough","endurance","endurance"],"yields":[{"itemID":"2162000","ID":"129","prob":"95.98"}]},"130":{"ID":"130","shortname":"lambs","groupid":"12","dollar":"11.17","experience":"11.49","malus":"0","danger":"10","luck":"1","level":"1","skills":["endurance","endurance","endurance","tough","tough"],"yields":[{"itemID":"2163000","ID":"130","prob":"95.98"}]},"131":{"ID":"131","shortname":"trapper","groupid":"32","dollar":"53.32","experience":"45.65","malus":"810","danger":"40","luck":"23","level":"101","skills":["animal","animal","pitfall","swim","swim"],"yields":[{"itemID":"2445000","ID":"131","prob":"13.49"}]},"132":{"ID":"132","shortname":"play_piano","groupid":"33","dollar":"50.25","experience":"47.97","malus":"820","danger":"30","luck":"21","level":"102","skills":["appearance","tactic","finger_dexterity","finger_dexterity","tough"],"yields":[{"itemID":"2436000","ID":"132","prob":"30.71"}]},"133":{"ID":"133","shortname":"guide_greenhorns","groupid":"31","dollar":"51.39","experience":"48.8","malus":"830","danger":"50","luck":"33","level":"103","skills":["animal","leadership","pitfall","ride","punch"],"yields":[{"itemID":"2432000","ID":"133","prob":"19.25"}]},"134":{"ID":"134","shortname":"construct_lazarett","groupid":"29","dollar":"50.97","experience":"47.49","malus":"840","danger":"20","luck":"55","level":"104","skills":["tactic","repair","endurance","build","build"],"yields":[{"itemID":"2435000","ID":"134","prob":"16.31"}]},"135":{"ID":"135","shortname":"translator","groupid":"34","dollar":"56.97","experience":"48.8","malus":"850","danger":"43","luck":"34","level":"105","skills":["appearance","tactic","leadership","reflex","tough"],"yields":[{"itemID":"2441000","ID":"135","prob":"12.47"}]},"136":{"ID":"136","shortname":"arm_wrestling","groupid":"33","dollar":"57.97","experience":"48.39","malus":"860","danger":"78","luck":"83","level":"106","skills":["tough","finger_dexterity","reflex","endurance","endurance"],"yields":[{"itemID":"2450000","ID":"136","prob":"21.1"}]},"137":{"ID":"137","shortname":"harvest_pepper","groupid":"32","dollar":"55.39","experience":"47.04","malus":"870","danger":"48","luck":"56","level":"107","skills":["tactic","finger_dexterity","tough","tough","punch"],"yields":[{"itemID":"2447000","ID":"137","prob":"22.07"}]},"138":{"ID":"138","shortname":"grave_digger","groupid":"30","dollar":"51.97","experience":"44.74","malus":"880","danger":"67","luck":"91","level":"108","skills":["repair","repair","endurance","punch","build"],"yields":[{"itemID":"2452000","ID":"138","prob":"16.31"}]},"139":{"ID":"139","shortname":"bodyguard","groupid":"34","dollar":"59.49","experience":"50.07","malus":"890","danger":"96","luck":"87","level":"109","skills":["appearance","leadership","shot","hide","punch"],"yields":[{"itemID":"2440000","ID":"139","prob":"18.27"}]},"140":{"ID":"140","shortname":"melting_bullets","groupid":"29","dollar":"57.97","experience":"49.49","malus":"900","danger":"85","luck":"67","level":"110","skills":["tactic","repair","finger_dexterity","reflex","reflex"],"yields":[{"itemID":"2430000","ID":"140","prob":"9.67"}]},"141":{"ID":"141","shortname":"track_big_game","groupid":"32","dollar":"54.65","experience":"54.8","malus":"910","danger":"94","luck":"74","level":"111","skills":["animal","animal","hide","hide","ride"],"yields":[{"itemID":"2438000","ID":"141","prob":"20.13"}]},"142":{"ID":"142","shortname":"embassador","groupid":"34","dollar":"59.97","experience":"52.31","malus":"920","danger":"78","luck":"82","level":"112","skills":["appearance","trade","trade","pitfall","pitfall"],"yields":[{"itemID":"2443000","ID":"142","prob":"8.64"}]},"143":{"ID":"143","shortname":"plan_reservat","groupid":"31","dollar":"58.17","experience":"52.5","malus":"930","danger":"81","luck":"81","level":"113","skills":["trade","leadership","ride","build","build"],"yields":[{"itemID":"2444000","ID":"143","prob":"8.64"}]},"144":{"ID":"144","shortname":"colonialize_areas","groupid":"31","dollar":"58.59","experience":"52.93","malus":"940","danger":"89","luck":"85","level":"114","skills":["pitfall","swim","swim","build","build"],"yields":[{"itemID":"2442000","ID":"144","prob":"24.01"}]},"145":{"ID":"145","shortname":"gunslinger","groupid":"33","dollar":"57.59","experience":"55.49","malus":"950","danger":"96","luck":"82","level":"115","skills":["appearance","shot","shot","hide","ride"],"yields":[{"itemID":"2446000","ID":"145","prob":"24.94"}]},"146":{"ID":"146","shortname":"loge","groupid":"34","dollar":"58.97","experience":"52.74","malus":"960","danger":"76","luck":"83","level":"116","skills":["trade","tactic","pitfall","hide","ride"],"yields":[{"itemID":"2448000","ID":"146","prob":"5.76"}]},"147":{"ID":"147","shortname":"stage_performer","groupid":"33","dollar":"55.17","experience":"55.17","malus":"970","danger":"56","luck":"67","level":"117","skills":["appearance","leadership","shot","hide","reflex"],"yields":[{"itemID":"2449000","ID":"147","prob":"13.51"}]},"148":{"ID":"148","shortname":"peace_officer","groupid":"29","dollar":"60.17","experience":"52.5","malus":"980","danger":"67","luck":"57","level":"118","skills":["appearance","tactic","shot","ride","punch"],"yields":[{"itemID":"2453000","ID":"148","prob":"10.55"}]},"149":{"ID":"149","shortname":"preacher","groupid":"30","dollar":"45.32","experience":"54.6","malus":"990","danger":"56","luck":"78","level":"119","skills":["trade","leadership","hide","endurance","tough"],"yields":[{"itemID":"2454000","ID":"149","prob":"27.84"}]},"150":{"ID":"150","shortname":"build_settlement","groupid":"30","dollar":"55.65","experience":"54.24","malus":"1000","danger":"37","luck":"47","level":"120","skills":["repair","repair","finger_dexterity","build","build"],"yields":[{"itemID":"2433000","ID":"150","prob":"23.04"}]},"151":{"ID":"151","shortname":"recruit_soldiers","groupid":"29","dollar":"58.17","experience":"56.13","malus":"1010","danger":"49","luck":"57","level":"121","skills":["tactic","leadership","ride","endurance","tough"],"yields":[{"itemID":"2431000","ID":"151","prob":"1.9"}]},"152":{"ID":"152","shortname":"order_troops","groupid":"29","dollar":"54.65","experience":"59.32","malus":"1020","danger":"67","luck":"23","level":"122","skills":["trade","leadership","pitfall","pitfall","reflex"],"yields":[{"itemID":"2439000","ID":"152","prob":"10.55"}]},"153":{"ID":"153","shortname":"hunt_aligators","groupid":"32","dollar":"55.17","experience":"61.59","malus":"1030","danger":"87","luck":"12","level":"123","skills":["animal","swim","swim","swim","hide"],"yields":[{"itemID":"2455000","ID":"153","prob":"25.9"}]},"154":{"ID":"154","shortname":"destille_alkohol","groupid":"33","dollar":"61.49","experience":"52.13","malus":"1040","danger":"93","luck":"34","level":"124","skills":["trade","tactic","repair","finger_dexterity","reflex"],"yields":[{"itemID":"2456000","ID":"154","prob":"17.28"}]},"155":{"ID":"155","shortname":"trading_office","groupid":"30","dollar":"57.59","experience":"47.04","malus":"1050","danger":"63","luck":"121","level":"125","skills":["trade","trade","trade","shot","endurance"],"yields":[{"itemID":"1975000","ID":"155","prob":"14.39"}]},"156":{"ID":"156","shortname":"craft_dynamite","groupid":"32","dollar":"62.17","experience":"49.65","malus":"1060","danger":"99","luck":"65","level":"126","skills":["finger_dexterity","finger_dexterity","hide","reflex","reflex"],"yields":[{"itemID":"2451000","ID":"156","prob":"17.28"}]},"157":{"ID":"157","shortname":"lead_expedition","groupid":"31","dollar":"59.25","experience":"54.8","malus":"1070","danger":"87","luck":"87","level":"127","skills":["animal","swim","swim","ride","tough"],"yields":[{"itemID":"2458000","ID":"157","prob":"31.68"}]},"158":{"ID":"158","shortname":"work_wells_fargo","groupid":"30","dollar":"58.32","experience":"52.93","malus":"1080","danger":"76","luck":"110","level":"128","skills":["animal","animal","repair","swim","ride"],"yields":[{"itemID":"2457000","ID":"158","prob":"16.31"}]},"159":{"ID":"159","shortname":"work_pinkerton_agent","groupid":"34","dollar":"60.59","experience":"56.93","malus":"1090","danger":"94","luck":"56","level":"129","skills":["appearance","shot","hide","punch","punch"],"yields":[{"itemID":"2437000","ID":"159","prob":"8.64"}]},"160":{"ID":"160","shortname":"explore_west","groupid":"31","dollar":"59.74","experience":"55.68","malus":"1100","danger":"89","luck":"110","level":"130","skills":["animal","trade","pitfall","swim","endurance"],"yields":[{"itemID":"2434000","ID":"160","prob":"4.95"}]}}',
                 reminderSound: new Audio("data:audio/mpeg;base64,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DahAsAMAtP/7kmQOAQRtHsIrW0PQKuAXrARCARIUdwas70qAsQAeJCEJugzFvwvPOG2WbCQhINDgTACcxUFEhEAYYZbGJCboFgJAz+nvMOUCTUoEV9FUHMJFSKEcuINeFxZfcbaMGF6dczUg95aenZXB1x0YKxrXMEBt4SrLAtMhAuKi6ZdAAigvgSRllyCuojQwVQ9vT1GfKxbqTAIBBIP+lY+zdVdbvbS+zcyh1qNtOxNTKFaK20rzdV1WY76+3dV2b9O3doQAR/XQFBREQCQRxk0cmsmf6I7QkQjhJQowhQM0DHCESyJaCNQGBTI1g5p3OiLUNLimuUk48aVMFIEYGjMDgoZIj54SAtXSIMBJBzl/ZoQoTVmILrpamPKPPUqqP0t/8ssLgEBsE0sPHhY0GWB577nUvMC51w6GRxhqmCyuKvYtJwCVEmq9mcSrVTNKGN88m4gEARRVVVi/pfm9L+tuLtqb5vQbzHimoUxT0GMw6h3UKYoytvmHUmtPi7axfWoQAgSxe8OsLMkBaoQo/5R4AGUNQ/4KA4yeSwFAVOTBAbM6A1D/+5JkEgXkrSZAqzwy8CTNlLFUFaqRbP0ALWRxCJ6AEEAAAACoQAcwQDTOcSBQyMJBdPwwaEizQQBWKEoPGgdDjJhAATSgpithuQAByQcph4gIINBtLUaOChq5lWxY7zQ4qdUSOzZK2HPS3uyy5ENGFuYLsWtSWVWk3IjTzluqX2NquyAvWtVQXUSTADRdiT9J0VlkvJgD//8IxTr8IxRv//+EYr/hGK///////////9f/R/4G4WoBohAk+HqZ/2Sp7GJANGMSKg0uOVlEGjQcQ6DByixkCsYZePATUfQfinqswYxEwUfqygIGShiRlVA+UFBodWkBTBIafoAtCITJdDrSER5jtHGpqjxFbLhBTZ+TfO/94sly2rKd/cy6nGln5+0mZXLB5u/X6utHgmcGfpbrptqY1bl/T1fnvlLxnlp3+li2V/XXt/p+Vq/+niWqdtZK1K4vKuLCVVpWupqrVyri1WK11VK2LlqrcrWgAAAAAFVttwr+uoKtYTlfnK0CvDqJSlZBvIjkFhuAKRXi6BFeieMXWichlnzmL2Wi+ACg//uQZBoE87ozwOnsQ8IXwARyAAJdjAGigkMEewgAADSAAAAECQIpWL/Zma+GuGbmmFm/4Y5m+L4vhVXZmklrJNNhDP///4rviguIK/IKCoz/+KFNgoqC7/hZBTwU3L4Q2X8XfkFBQ0AAY/////////+s7+rzrwVLCYeGiOs6IhABoFFAZh6Cea//7Ozu15s07UacWUWYeUcacaBFmHmFFs7XFs3/YRGRkZkZGRkZkZf/8j///kekIyMjL/1axyMjlln+ysoYGCBggVlRyP8jVrLZUMjKZkyhgoIGDBRFm0xBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"),
                 images:
@@ -453,7 +454,8 @@
                     try
                     {
                         /*! TWS */
-                        var e = localStorage.tws_settings ? JSON.parse(localStorage.tws_settings) : {};
+                        var e = localStorage.tws_settings ? JSON.parse(localStorage.tws_settings) :
+                        {};
                         e = $.extend(e,
                             {
                                 enableWir: !1,
@@ -461,20 +463,23 @@
                             }), localStorage.setItem("tws_settings", JSON.stringify(e)),
                             /*! TWX.ShortPopups */
                             window.TWX && window.TWX.Features && (window.TWX.Features.ShortPopups = !1);
-                        var t = localStorage.TWLT ? JSON.parse(localStorage.TWLT) : {};
+                        var t = localStorage.TWLT ? JSON.parse(localStorage.TWLT) :
+                        {};
                         t = $.extend(t,
                             {
                                 ShortPopups: !1
                             }), localStorage.setItem("TWLT", JSON.stringify(t)),
                             /*! Toolkit */
                             window.TWToolkit && window.TWToolkit.preferences && (window.TWToolkit.preferences.ids_popup = !1);
-                        var i = localStorage.TWToolkit_preferences ? JSON.parse(localStorage.TWToolkit_preferences) : {};
+                        var i = localStorage.TWToolkit_preferences ? JSON.parse(localStorage.TWToolkit_preferences) :
+                        {};
                         t = $.extend(i,
                         {
                             ids_popup: !1
                         }), localStorage.setItem("TWToolkit_preferences", JSON.stringify(i))
                     }
-                    catch (e) {}
+                    catch (e)
+                    {}
                 },
                 error: function(e, t)
                 {
@@ -506,7 +511,8 @@
                             {
                                 WestUi.NotiBar.remove(n)
                             }
-                            catch (e) {}
+                            catch (e)
+                            {}
                         }, 3e4)
                 },
                 Util:
@@ -675,7 +681,8 @@
                     /*! LZString 1.4.4 by Pieroxy <pieroxy@pieroxy.net> */
                     keyStrBase64: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
                     keyStrUriSafe: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$",
-                    baseReverseDic: {},
+                    baseReverseDic:
+                    {},
                     compressToUTF16: function(e)
                     {
                         return null == e ? "" : this._compress(e, 15, function(e)
@@ -718,11 +725,11 @@
                             c = [],
                             d = 0,
                             C = 0,
-                            m = 0;
-                        if (function u()
+                            u = 0;
+                        if (function m()
                             {
-                                for (; m < e.length; m += 1)
-                                    if (A = e.charAt(m), Object.prototype.hasOwnProperty.call(n, A) || (n[A] = p++, o[A] = !0), s = l + A, Object.prototype.hasOwnProperty.call(n, s)) l = s;
+                                for (; u < e.length; u += 1)
+                                    if (A = e.charAt(u), Object.prototype.hasOwnProperty.call(n, A) || (n[A] = p++, o[A] = !0), s = l + A, Object.prototype.hasOwnProperty.call(n, s)) l = s;
                                     else
                                     {
                                         if (Object.prototype.hasOwnProperty.call(o, l))
@@ -742,7 +749,7 @@
                                         else
                                             for (r = n[l], a = 0; a < I; a++) d = d << 1 | 1 & r, C == t - 1 ? (C = 0, c.push(i(d)), d = 0) : C++, r >>= 1;
                                         0 == --g && (g = Math.pow(2, I), I++), n[s] = p++, l = String(A)
-                                    } m + 1 < e.length && setTimeout(u, 5)
+                                    } u + 1 < e.length && setTimeout(m, 5)
                             }(), "" !== l)
                         {
                             if (Object.prototype.hasOwnProperty.call(o, l))
@@ -783,21 +790,21 @@
                             c = 3,
                             d = "",
                             C = [],
-                            m = {
+                            u = {
                                 val: i(0),
                                 position: t,
                                 index: 1
                             };
                         for (a = 0; a < 3; a += 1) g[a] = a;
-                        for (n = 0, A = Math.pow(2, 2), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                        for (n = 0, A = Math.pow(2, 2), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                         switch (n)
                         {
                             case 0:
-                                for (n = 0, A = Math.pow(2, 8), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                                for (n = 0, A = Math.pow(2, 8), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                                 l = String.fromCharCode(n);
                                 break;
                             case 1:
-                                for (n = 0, A = Math.pow(2, 16), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                                for (n = 0, A = Math.pow(2, 16), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                                 l = String.fromCharCode(n);
                                 break;
                             case 2:
@@ -805,16 +812,16 @@
                         }
                         for (g[3] = l, r = l, C.push(l);;)
                         {
-                            if (m.index > e) return "";
-                            for (n = 0, A = Math.pow(2, c), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                            if (u.index > e) return "";
+                            for (n = 0, A = Math.pow(2, c), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                             switch (l = n)
                             {
                                 case 0:
-                                    for (n = 0, A = Math.pow(2, 8), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                                    for (n = 0, A = Math.pow(2, 8), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                                     g[I++] = String.fromCharCode(n), l = I - 1, p--;
                                     break;
                                 case 1:
-                                    for (n = 0, A = Math.pow(2, 16), s = 1; s != A;) o = m.val & m.position, m.position >>= 1, 0 == m.position && (m.position = t, m.val = i(m.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
+                                    for (n = 0, A = Math.pow(2, 16), s = 1; s != A;) o = u.val & u.position, u.position >>= 1, 0 == u.position && (u.position = t, u.val = i(u.index++)), n |= (o > 0 ? 1 : 0) * s, s <<= 1;
                                     g[I++] = String.fromCharCode(n), l = I - 1, p--;
                                     break;
                                 case 2:
@@ -923,9 +930,12 @@
                 },
                 SideMenu:
                 {
-                    checkboxes: {},
-                    buttons: {},
-                    inv_sort: {},
+                    checkboxes:
+                    {},
+                    buttons:
+                    {},
+                    inv_sort:
+                    {},
                     showSelectbox: function(e)
                     {
                         var t = this,
@@ -1008,7 +1018,9 @@
                             var t = e.GuiWindow;
                             t.activateTab("twir_feat"), t.clearContentPane();
                             var i = e.GuiScrollpane = new west.gui.Scrollpane;
-                            e.sort_options_temp = $.extend({}, TWIR.Inventory.sort_options), e.search_keybinds_temp = $.extend({}, TWIR.Inventory.search_keybinds);
+                            e.sort_options_temp = $.extend(
+                            {}, TWIR.Inventory.sort_options), e.search_keybinds_temp = $.extend(
+                            {}, TWIR.Inventory.search_keybinds);
                             /*! Lang */
                             var a = (new west.gui.Combobox)
                                 .setWidth(165),
@@ -1067,9 +1079,9 @@
                                     .data("c", !t)
                             });
                             /*! Inv selectbox size / number of items */
-                            for (var m = (new west.gui.Combobox)
-                                    .setWidth(50), u = 7; u <= 14; u++) m.addItem(u, u.toString());
-                            m.select(TWIR.Features.get("inv_menu_size"));
+                            for (var u = (new west.gui.Combobox)
+                                    .setWidth(50), m = 7; m <= 14; m++) u.addItem(m, m.toString());
+                            u.select(TWIR.Features.get("inv_menu_size"));
                             /*! Inv size / number of slots */
                             var h = (new west.gui.Textfield)
                                 .onlyNumeric()
@@ -1084,7 +1096,7 @@
                                 }, 500)), h.setValue(TWIR.Features.get("inv_max_slots"));
                             var w = TWIR_lang.feat_strings.inv_max_slots.split("%1");
                             /*! Inventory sort */
-                            for (var n in h.setTooltip(w[1] || ""), l.prepend("<span>" + TWIR_lang.feat_strings.inv_menu_size + "</span>", m.getMainDiv()
+                            for (var n in h.setTooltip(w[1] || ""), l.prepend("<span>" + TWIR_lang.feat_strings.inv_menu_size + "</span>", u.getMainDiv()
                                     .css("margin-left", "10px"), "<br><span>" + w[0] + "</span>", h.getMainDiv(), "<br>"), TWIR.Inventory.sort_options) "0" === n ? g.prepend(e.createSortRow(TWIR.Inventory.sort_options[n], n)) : g.append(e.createSortRow(TWIR.Inventory.sort_options[n], n));
                             /*! Search keybinds */
                             for (var b = TWIR.Inventory.getFilterDesc(), v = TWIR.Inventory.getBonusDesc(), y = "", f = 0; f < b.length; f++) y += "<div>" + b[f].d + " : " + b[f].f + "</div>";
@@ -1118,7 +1130,9 @@
                                     if (void 0 !== localStorage)
                                     {
                                         for (var t in e.checkboxes) TWIR.Features[t] = e.checkboxes[t].isSelected();
-                                        if (localStorage.setItem("scriptsLang", a.getValue()), TWIR.Features.inv_menu_size = parseInt(m.getValue()), TWIR.Features.inv_max_slots = parseInt(h.getValue()), Inventory.size = h.getValue() * Inventory.slot_coef, Inventory.sizeSearch = h.getValue() * Inventory.slot_coef, localStorage.setItem("twir_features", JSON.stringify(TWIR.Features)), TWIR.Inventory.sort_options = $.extend({}, e.sort_options_temp), TWIR.Data.add("twir_sort_options", e.sort_options_temp), TWIR.Inventory.search_keybinds = $.extend({}, e.search_keybinds_temp), TWIR.Data.add("twir_search_keybinds", e.search_keybinds_temp), B > 0)
+                                        if (localStorage.setItem("scriptsLang", a.getValue()), TWIR.Features.inv_menu_size = parseInt(u.getValue()), TWIR.Features.inv_max_slots = parseInt(h.getValue()), Inventory.size = h.getValue() * Inventory.slot_coef, Inventory.sizeSearch = h.getValue() * Inventory.slot_coef, localStorage.setItem("twir_features", JSON.stringify(TWIR.Features)), TWIR.Inventory.sort_options = $.extend(
+                                            {}, e.sort_options_temp), TWIR.Data.add("twir_sort_options", e.sort_options_temp), TWIR.Inventory.search_keybinds = $.extend(
+                                            {}, e.search_keybinds_temp), TWIR.Data.add("twir_search_keybinds", e.search_keybinds_temp), B > 0)
                                         {
                                             var i = TWIR.langs;
                                             $.getJSON(TWIR.base_url + "docs/langs/" + i[a.getValue()].locale + ".json", function(e)
@@ -1266,8 +1280,8 @@
                                             }
                                             else A.setValue("")
                                         }, 500))
-                                        .css("text-align", "center"), o.setText($('<div style="font-weight: bold; text-align: center;"></div>')
-                                            .append(A.getMainDiv()))
+                                        .css("text-align", "center"), o.setText($('<div style="text-align: center; padding-left: 20px;"></div>')
+                                            .append(A.getMainDiv(), '<span style="color: #666;"> default: ' + String.fromCharCode(a.d) + "</span>"))
                                         .setModal(!0, !1,
                                         {
                                             bg: "/images/curtain_bg.png",
@@ -1316,7 +1330,7 @@
                             a = $('<div style="width: 400px;margin-left: auto;margin-right: auto;"/>'),
                             r = $('<div><div style="text-align: center;"><form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /><input type="hidden" name="hosted_button_id" value="CCN4T9NYJGFVS" /><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Donate with PayPal button" /></form></div></div>'),
                             n = $('<div style="margin-top: 10px;width: 400px;margin-left: auto;margin-right: auto;"/>'),
-                            o = $('<div style="text-align: center;"><div style="color: #5e321a;font-weight: bold;font-size: 15px;">' + TWIR_lang.donate_paypal + ':</div><div style="padding-bottom: 5px;">Donate to Jamza (original author)</div><a href="https://www.buymeacoffee.com/JamzaSK" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a></div>'),
+                            o = $('<div style="text-align: center;"><div style="color: #5e321a;font-weight: bold;font-size: 15px;">' + TWIR_lang.donate_paypal + ':</div><div style="padding-bottom: 5px;">Buy Jamza a beer (original author)</div><a href="https://www.buymeacoffee.com/JamzaSK" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a></div>'),
                             A = $('<div style="text-align:center;display:block;font-size:15px;color: #5e321a;font-weight: bold;">' + TWIR_lang.tyty + '!&nbsp;<img src="/images/chat/emoticons/smile.png?1" alt=":)"></div>');
                         a.append((new west.gui.Groupframe)
                             .appendToContentPane(r)
@@ -1328,7 +1342,8 @@
                         $.getJSON(TWIR.base_url + "json/donations.json")
                             .done(function(e)
                             {
-                                e = e || {};
+                                e = e ||
+                                {};
                                 var t = [],
                                     i = "";
                                 for (var a in e) t.push([e[a][0], e[a]]);
@@ -1659,7 +1674,8 @@
                             return null == e ? 12 === a && i <= 25 : 12 === a && i === e
                         };
                         if (!t() || !Bag.getItemByItemId(127e5)) return !1;
-                        Ajax.remoteCallMode("advent", "index", {}, function(i)
+                        Ajax.remoteCallMode("advent", "index",
+                        {}, function(i)
                         {
                             if (i.error) return !1;
                             for (var a, r, n, o, A = [], s = 1; s < 25; s++) i.doors >> s & 1 || A.push(s);
@@ -2094,7 +2110,8 @@
                         if (TWIR.changing_clothes) return;
                         var n = Premium.hasBonus("automation") ? TaskQueue.limit.premium : TaskQueue.limit.normal;
                         if (TaskQueue.queue.length === n) return;
-                        r.current_wear = $.extend({}, Wear.wear);
+                        r.current_wear = $.extend(
+                        {}, Wear.wear);
                         var o = new TWIR_Calc("best",
                         {
                             skills: "ms"
@@ -2262,7 +2279,8 @@
                                     }), t
                             }
                         }
-                        catch (e) {}
+                        catch (e)
+                        {}
                     }
                 },
                 SortedPlayerTitles:
@@ -2280,7 +2298,8 @@
                                         .localeCompare(t.node.text())
                                 })
                             }
-                            catch (e) {}
+                            catch (e)
+                            {}
                         }
                     }
                 },
@@ -2331,7 +2350,8 @@
                                 PlayerProfileMain.twir_init.apply(this, arguments);
                                 try
                                 {
-                                    var e = TWIR.RankingData.getPlayerStats(this.playerid, "craft") || {};
+                                    var e = TWIR.RankingData.getPlayerStats(this.playerid, "craft") ||
+                                    {};
                                     e.profession_id && TWIR.Features.get("prof_craft_points") && $(".pp-prof, .pp-prof-" + e.profession_id, this.window)
                                         .append($('<span style="height: 12px;line-height: 12px;font-size: 10px;text-shadow: black -1px 0 1px, black 0 1px 1px, black 1px 0 1px, black 0 -1px 1px;color: #F8C57C;font-weight: bold;position: absolute;right: 5px;bottom: 5px;">' + e.profession_skill + "</span>"))
                                 }
@@ -2424,7 +2444,8 @@
                         {
                             var e = function()
                             {
-                                Ajax.remoteCall("fort_overview", "", {}, function(e)
+                                Ajax.remoteCall("fort_overview", "",
+                                {}, function(e)
                                 {
                                     var t = 0;
                                     if (e.js)
@@ -2844,18 +2865,7 @@
                             else if ("cemetery" === i) switch (e)
                             {
                                 case 1:
-                                    var m = o.filter(function(e)
-                                        {
-                                            if (e.name !== Character.name) return e.name
-                                        })
-                                        .map(function(e)
-                                        {
-                                            return e.name
-                                        });
-                                    a.sendMessage(m);
-                                    break;
-                                case 2:
-                                    var u = A.filter(function(e)
+                                    var u = o.filter(function(e)
                                         {
                                             if (e.name !== Character.name) return e.name
                                         })
@@ -2864,6 +2874,17 @@
                                             return e.name
                                         });
                                     a.sendMessage(u);
+                                    break;
+                                case 2:
+                                    var m = A.filter(function(e)
+                                        {
+                                            if (e.name !== Character.name) return e.name
+                                        })
+                                        .map(function(e)
+                                        {
+                                            return e.name
+                                        });
+                                    a.sendMessage(m);
                                     break;
                                 case 3:
                                     var h = s.filter(function(e)
@@ -3001,7 +3022,7 @@
                                     return o
                                 }, C = 0; C < s.length; C++)
                             {
-                                for (var m, u, h, w = '<div class="twir_fb_sector" ', b = (a.mapInfo.sectors[a.mapInfo.cells.charAt(s[C][0])], 0), v = 0, y = [], f = 0; f < s[C].length; f++) m = s[C][f], u = 15 * Math.floor(m / a.mapInfo.width), h = m % a.mapInfo.width * 15, 0 == f && (y[0] = u, y[1] = h), u == y[0] && (b += 15), h == y[1] && (v += 15);
+                                for (var u, m, h, w = '<div class="twir_fb_sector" ', b = (a.mapInfo.sectors[a.mapInfo.cells.charAt(s[C][0])], 0), v = 0, y = [], f = 0; f < s[C].length; f++) u = s[C][f], m = 15 * Math.floor(u / a.mapInfo.width), h = u % a.mapInfo.width * 15, 0 == f && (y[0] = m, y[1] = h), m == y[0] && (b += 15), h == y[1] && (v += 15);
                                 w += 'style="width: ' + b + "px; height: " + v + "px; top: " + y[0] + "px; left: " + y[1] + 'px;">', w += 15 == b && t ? '<span class="twir_sector_name_vertical" style="height: ' + (r > 0 ? 100 : 60) + 'px;">' + d(s[C]) + "</span></div>" : '<div class="twir_fb_sector_name" style="font-size: ' + (t ? 10 : 11) + 'px;">' + (t ? I(d(s[C]), b) : C + 1) + "</div></div>", l += w
                             }
                             l += "</div>", n.prepend(l)
@@ -3013,7 +3034,8 @@
                     },
                     getStatus: function(e, t)
                     {
-                        var i = Chat.Resource.Manager.getClients() || {};
+                        var i = Chat.Resource.Manager.getClients() ||
+                        {};
                         for (var a in i)
                             if (i[a] === "client_" + e) return Chat.Resource.Manager.getClient(i[a])
                                 .statusId;
@@ -3035,7 +3057,8 @@
                                 {
                                     var r = i[a].ranks,
                                         n = Chat.rankTitles,
-                                        o = ((r[e] || {})
+                                        o = ((r[e] ||
+                                            {})
                                             .rank || 0) + 2,
                                         A = {
                                             0: ["traitor", n.traitor],
@@ -3162,7 +3185,8 @@
                                         if (65535 !== i[n].shotat)
                                         {
                                             r[i[n].shotat] || (r[i[n].shotat] = {
-                                                cache: {}
+                                                cache:
+                                                {}
                                             }), 0 !== i[n].shotdmg ? r[i[n].shotat].ht = (r[i[n].shotat].ht || 0) + 1 : r[i[n].shotat].ds = (r[i[n].shotat].ds || 0) + 1, r[i[n].shotat].cache[t[n].characterid] = i[n].shotdmg;
                                             var o = a.charactersByCharId[i[n].shotat];
                                             o && 1 === t[n].characterclass && i[n].shotdmg >= o.healthmax / 100 * 10 + t[n].damage.damagemin && (r[i[n].shotat].crit = (r[i[n].shotat].crit || 0) + 1)
@@ -3199,7 +3223,8 @@
                                             characterid: i[A].shotat
                                         } : null,
                                         crit: !1,
-                                        sectorinfo: a.mapInfo.sectors[a.mapInfo.cells.charAt(t[A].position)] || {},
+                                        sectorinfo: a.mapInfo.sectors[a.mapInfo.cells.charAt(t[A].position)] ||
+                                        {},
                                         destinycell: i ? i[A].destinycell : -1,
                                         shots: null,
                                         isAllied: t[A].bonusinfo.offense + t[A].bonusinfo.defense + t[A].bonusinfo.leadbonus != 0
@@ -3223,16 +3248,19 @@
                         var i, a = {
                             0:
                             {
-                                wep: {}
+                                wep:
+                                {}
                             },
                             1:
                             {
-                                wep: {}
+                                wep:
+                                {}
                             }
                         };
                         try
                         {
-                            i = t ? this[e].round_data[t] || {} : this.getLastRound(e);
+                            i = t ? this[e].round_data[t] ||
+                            {} : this.getLastRound(e);
                             for (var r = 0; r < i.length; r++)
                                 if (!i[r].dead)
                                 {
@@ -3821,16 +3849,16 @@
                                                 var C = e.regex.ttv_video.exec(t);
                                                 if (C && C[1] && t.length === C[0].length)
                                                 {
-                                                    var m = '<div class="twir_embed-container"><iframe src="https://player.twitch.tv/?video=' + C[1] + '&autoplay=false&width=280&height=157" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>';
-                                                    return t = t.replace(C[0], m)
+                                                    var u = '<div class="twir_embed-container"><iframe src="https://player.twitch.tv/?video=' + C[1] + '&autoplay=false&width=280&height=157" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>';
+                                                    return t = t.replace(C[0], u)
                                                 }
                                                 break;
                                             case e.regex.ttv_stream.test(t):
-                                                var u = e.regex.ttv_stream.exec(t);
-                                                if (u && u[1] && t.length === u[0].length)
+                                                var m = e.regex.ttv_stream.exec(t);
+                                                if (m && m[1] && t.length === m[0].length)
                                                 {
-                                                    var h = '<div class="twir_embed-container"><iframe src="https://player.twitch.tv/?channel=' + u[1] + '&autoplay=false&width=280&height=157" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>';
-                                                    return t = t.replace(u[0], h)
+                                                    var h = '<div class="twir_embed-container"><iframe src="https://player.twitch.tv/?channel=' + m[1] + '&autoplay=false&width=280&height=157" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>';
+                                                    return t = t.replace(m[0], h)
                                                 }
                                         }
                                         /*!Copypasted color code recognition */
@@ -3903,8 +3931,10 @@
                 },
                 Crafting:
                 {
-                    recipes: {},
-                    learnt_recipes: {},
+                    recipes:
+                    {},
+                    learnt_recipes:
+                    {},
                     init: function()
                     {
                         this.update(), this.getRecipes()
@@ -3956,7 +3986,8 @@
                         var t = this;
                         try
                         {
-                            Ajax.remoteCall("crafting", "", {}, function(i)
+                            Ajax.remoteCall("crafting", "",
+                            {}, function(i)
                             {
                                 var a = [];
                                 if (i.recipes_content && i.recipes_content.length)
@@ -3974,8 +4005,10 @@
                 {
                     data:
                     {
-                        shop_prices: {},
-                        sales: {}
+                        shop_prices:
+                        {},
+                        sales:
+                        {}
                     },
                     updateData: function()
                     {
@@ -3987,7 +4020,8 @@
                             var t = [],
                                 a = e.data.shop_prices,
                                 r = e.data.sales;
-                            Ajax.remoteCallMode("shop_trader", "index", {}, function(e)
+                            Ajax.remoteCallMode("shop_trader", "index",
+                            {}, function(e)
                             {
                                 if (e.error && new UserMessage(e.msg)
                                     .show(), !e.error && e.inventory)
@@ -4057,7 +4091,8 @@
                         this.updateData();
                         var e = function()
                         {
-                            Ajax.remoteCallMode("work", "index", {}, function(e)
+                            Ajax.remoteCallMode("work", "index",
+                            {}, function(e)
                             {
                                 if (e.error) return new UserMessage(e.msg)
                                     .show();
@@ -4215,8 +4250,8 @@
                                                 var C = I[1];
                                                 if (C < 100)
                                                 {
-                                                    var m = Math.floor(C / 100 * Character.maxHealth);
-                                                    g += "<li>" + this.item_obj.usebonus[p] + "&nbsp;(+" + m + ")</li>"
+                                                    var u = Math.floor(C / 100 * Character.maxHealth);
+                                                    g += "<li>" + this.item_obj.usebonus[p] + "&nbsp;(+" + u + ")</li>"
                                                 }
                                                 else g += "<li>" + this.item_obj.usebonus[p] + "</li>"
                                             }
@@ -4225,7 +4260,8 @@
                                         t = t.replace(/<ul\s+class="inventory_popup_effect_list">[\S\s]*?<\/ul>/gi, '<ul class="inventory_popup_effect_list" style="max-width: 240px;display: block;min-width: 170px;white-space: unset!important;"> ' + g + " </ul>")
                                     }
                                 }
-                                catch (e) {}
+                                catch (e)
+                                {}
                                 t = t.replace(/(invPopup_foot")(>)/g, function(t, i, a)
                                 {
                                     var r = "";
@@ -4233,16 +4269,16 @@
                                 }), !0 === this.item_obj.auctionable && (t = t.replace(/(<br>)(<p\s+class="inventory_popup_auctionable tw_green">.*?<\/p>)/, "$2")), !1 === this.item_obj.upgradeable && (t = t.replace(/(<br>)(<p\s+class="inventory_popup_notupgradeable tw_red">.*?<\/p>)/, "$2")), !1 === this.item_obj.sellable && (t = t.replace(/invPopup_notsellable"/, '$& style="text-align: center;color: #900;font-style: normal!important;font-size: 13px!important;display: block!important;"')), t = t.replace(/(<br>)(<span\s+class="inventory_popup_bonus_attr text_bold">.*?<\/span>)(\s*<br><span\s+class="inventory_popup_bonus_skill">.*?<\/span>)+/g, "$2 $3 <br>");
                                 try
                                 {
-                                    var u = TWIR.Popups.data.shop_prices,
+                                    var m = TWIR.Popups.data.shop_prices,
                                         h = TWIR.Popups.data.sales;
-                                    if (u[this.item_obj.short] && TWIR.Features.get("pop_ups_price"))
+                                    if (m[this.item_obj.short] && TWIR.Features.get("pop_ups_price"))
                                     {
                                         var w = 1 === this.item_obj.item_level ? 3 : 2 === this.item_obj.item_level ? 9 : 3 === this.item_obj.item_level ? 27 : 4 === this.item_obj.item_level ? 81 : 5 === this.item_obj.item_level ? 243 : 1,
-                                            b = 3 === u[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds_nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(u[this.item_obj.short].price_bonds * w, !0) : u[this.item_obj.short].price_bonds * w) + "</span>" : 2 === u[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(u[this.item_obj.short].price_nuggets * w, !0) : u[this.item_obj.short].price_nuggets * w) + "</span>" : 1 === u[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(u[this.item_obj.short].price_bonds * w, !0) : u[this.item_obj.short].price_bonds * w) + "</span>" : 8 === u[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.veteran + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(u[this.item_obj.short].price_veteran * w, !0) : u[this.item_obj.short].price_veteran * w) + "</span>" : 7 === u[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds_nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(u[this.item_obj.short].price_nuggets * w, !0) : u[this.item_obj.short].price_nuggets * w) + '</span><span style="display: inline-block;position: relative; top: 3px; background: url(' + TWIR.images.game_currency.dollars + ') no-repeat;width: 16px;height: 16px;margin-left: 5px;"/></span><span>' + TWIR.Util.replSum(u[this.item_obj.short].price_dollar * w) + "</span>" : "",
-                                            v = u[this.item_obj.short].limited_time ? '<span style="color: #666;">&nbsp;(' + TWIR.Util.msToTime((new Date(1e3 * u[this.item_obj.short].limited_time)
+                                            b = 3 === m[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds_nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(m[this.item_obj.short].price_bonds * w, !0) : m[this.item_obj.short].price_bonds * w) + "</span>" : 2 === m[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(m[this.item_obj.short].price_nuggets * w, !0) : m[this.item_obj.short].price_nuggets * w) + "</span>" : 1 === m[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(m[this.item_obj.short].price_bonds * w, !0) : m[this.item_obj.short].price_bonds * w) + "</span>" : 8 === m[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.veteran + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(m[this.item_obj.short].price_veteran * w, !0) : m[this.item_obj.short].price_veteran * w) + "</span>" : 7 === m[this.item_obj.short].currency ? '<span style="display: inline-block;position: relative;top: 3px;background: url(' + TWIR.images.game_currency.bonds_nuggets + ') no-repeat;width: 16px;height: 16px;"></span><span>&nbsp;' + (TWIR.Features.get("pop_short_currency") ? TWIR.Util.replSum(m[this.item_obj.short].price_nuggets * w, !0) : m[this.item_obj.short].price_nuggets * w) + '</span><span style="display: inline-block;position: relative; top: 3px; background: url(' + TWIR.images.game_currency.dollars + ') no-repeat;width: 16px;height: 16px;margin-left: 5px;"/></span><span>' + TWIR.Util.replSum(m[this.item_obj.short].price_dollar * w) + "</span>" : "",
+                                            v = m[this.item_obj.short].limited_time ? '<span style="color: #666;">&nbsp;(' + TWIR.Util.msToTime((new Date(1e3 * m[this.item_obj.short].limited_time)
                                                 .getTime() - new Date(1e3 * Game.getServerTime())
                                                 .getTime()) / 1e3) + ")</span>" : "",
-                                            y = u[this.item_obj.short].reduced_value ? '<span style="color: #666;">&nbsp;/-' + u[this.item_obj.short].reduced_value + "%</span>" : "";
+                                            y = m[this.item_obj.short].reduced_value ? '<span style="color: #666;">&nbsp;/-' + m[this.item_obj.short].reduced_value + "%</span>" : "";
                                         t = t.replace(/(<div\s+class="inventory_popup_prices">[\S\s]*?)(<\/div>)/gi, "$1" + marketSeen + '<div class="twir_other_popup_prices">&nbsp;' + b + y + v + "</div> $2")
                                     }
                                     else if (h[this.item_obj.short] && TWIR.Features.get("pop_ups_price"))
@@ -4253,7 +4289,8 @@
                                     }
                                     else t = t.replace(/(<div\s+class="inventory_popup_prices">[\S\s]*?)(<\/div>)/gi, "$1" + marketSeen + "$2")
                                 }
-                                catch (e) {}
+                                catch (e)
+                                {}
                                 if (TWIR.Features.get("pop_trader") && null !== this.item_obj.traderlevel && this.item_obj.traderlevel <= 20) switch (this.item_obj.type)
                                 {
                                     case "belt":
@@ -4324,7 +4361,8 @@
                                             .min_level + ")</span></td></tr></tbody></table></div>"), t += W
                                     }
                                 }
-                                catch (e) {}
+                                catch (e)
+                                {}
                                 try
                                 {
                                     if ("mapdrop" === this.item_obj.spec_type && "none" === this.item_obj.usetype && TWIR.Features.get("pop_job_table"))
@@ -4345,7 +4383,8 @@
                                         t += F += "</tbody></table></div>"
                                     }
                                 }
-                                catch (e) {}
+                                catch (e)
+                                {}
                                 try
                                 {
                                     if (null !== this.item_obj.set) var N = west.storage.ItemSetManager.get(this.item_obj.set),
@@ -4421,45 +4460,45 @@
                                                     value: de
                                                 })
                                             }
-                                            for (var me = [], ue = 0; ue < se.length; ue++)
+                                            for (var ue = [], me = 0; me < se.length; me++)
                                             {
                                                 for (var he = 0; he < le.length; he++)
-                                                    if (se[ue].skill === le[he].skill)
+                                                    if (se[me].skill === le[he].skill)
                                                     {
-                                                        var we = !(!se[ue].value.includes("%") || !le[he].value.includes("%")),
-                                                            be = parseFloat(se[ue].value) - parseFloat(le[he].value);
-                                                        me.push(
+                                                        var we = !(!se[me].value.includes("%") || !le[he].value.includes("%")),
+                                                            be = parseFloat(se[me].value) - parseFloat(le[he].value);
+                                                        ue.push(
                                                         {
-                                                            skill: se[ue].skill,
+                                                            skill: se[me].skill,
                                                             diff: we ? be + "%" : be,
-                                                            value: se[ue].value
+                                                            value: se[me].value
                                                         })
-                                                    } me.find(function(e)
+                                                    } ue.find(function(e)
                                                 {
-                                                    return e.skill === se[ue].skill
-                                                }) || me.push(
+                                                    return e.skill === se[me].skill
+                                                }) || ue.push(
                                                 {
-                                                    skill: se[ue].skill,
+                                                    skill: se[me].skill,
                                                     diff: null,
-                                                    value: se[ue].value
+                                                    value: se[me].value
                                                 })
                                             }
-                                            for (var ve = 0; ve < le.length; ve++) me.find(function(e)
+                                            for (var ve = 0; ve < le.length; ve++) ue.find(function(e)
                                             {
                                                 return e.skill === le[ve].skill
-                                            }) || me.push(
+                                            }) || ue.push(
                                             {
                                                 skill: le[ve].skill,
                                                 diff: "red",
                                                 value: le[ve].value
                                             });
-                                            for (var ye = 0; ye < me.length; ye++)
-                                                if ("red" !== me[ye].diff)
+                                            for (var ye = 0; ye < ue.length; ye++)
+                                                if ("red" !== ue[ye].diff)
                                                 {
-                                                    var fe = null === me[ye].diff ? '&nbsp;(<span class="tw_green">+' + me[ye].value + "</span>)&nbsp;" : parseFloat(me[ye].diff) > 0 ? '&nbsp;(<span class="tw_green">+' + me[ye].diff + "</span>)&nbsp;" : parseFloat(me[ye].diff) < 0 ? '&nbsp;(<span class="tw_red">' + me[ye].diff + "</span>)&nbsp;" : "&nbsp;",
-                                                        ke = 0 === me[ye].diff ? "color: #b75c00" : "color: #666";
-                                                    re += '<li style="' + ke + ';">' + me[ye].value + "&nbsp;" + me[ye].skill + fe + "</li>"
-                                                } for (var xe = 0; xe < me.length; xe++) "red" === me[xe].diff && (re += '<li class="tw_red">-' + me[xe].value + "&nbsp;" + me[xe].skill + "</li>");
+                                                    var fe = null === ue[ye].diff ? '&nbsp;(<span class="tw_green">+' + ue[ye].value + "</span>)&nbsp;" : parseFloat(ue[ye].diff) > 0 ? '&nbsp;(<span class="tw_green">+' + ue[ye].diff + "</span>)&nbsp;" : parseFloat(ue[ye].diff) < 0 ? '&nbsp;(<span class="tw_red">' + ue[ye].diff + "</span>)&nbsp;" : "&nbsp;",
+                                                        ke = 0 === ue[ye].diff ? "color: #b75c00" : "color: #666";
+                                                    re += '<li style="' + ke + ';">' + ue[ye].value + "&nbsp;" + ue[ye].skill + fe + "</li>"
+                                                } for (var xe = 0; xe < ue.length; xe++) "red" === ue[xe].diff && (re += '<li class="tw_red">-' + ue[xe].value + "&nbsp;" + ue[xe].skill + "</li>");
                                             t += re += "</ul>"
                                         }
                                         var Re = P > 0 ? "&nbsp;(" + P + "/" + te + ")" : "";
@@ -4476,7 +4515,8 @@
                                     }
                                     TWIR.Features.get("pop_partial_bonus") && !1 !== this.options.twir_partial_bonus && null !== this.item_obj.set && 0 === P && !1 === r && (t += "</td>")
                                 }
-                                catch (e) {}
+                                catch (e)
+                                {}
                             }
                             catch (e)
                             {
@@ -4562,19 +4602,19 @@
                                     var C = l[d].obj;
                                     C.type === a && (!r || C.item_level > r.obj.item_level) && (r = l[d])
                                 }
-                                for (var m = 0; m < g.length; m++)
+                                for (var u = 0; u < g.length; u++)
                                 {
-                                    var C = g[m].obj;
-                                    C.type === a && (!n || C.item_level > n.obj.item_level) && (n = g[m])
+                                    var C = g[u].obj;
+                                    C.type === a && (!n || C.item_level > n.obj.item_level) && (n = g[u])
                                 }
                                 if ((r || n) && (A = '<img style="position: relative;' + ("right_arm" === a || "left_arm" === a ? "max-height: 58px" : "max-height: 38px") + ";width: auto;margin: auto;display: block;" + (n ? "opacity: 0.6" : "opacity: 1") + ';" src="' + (r ? "left_arm" === a || "right_arm" === a ? r.obj.wear_image : r.obj.image : "left_arm" === a || "right_arm" === a ? n.obj.wear_image : n.obj.image) + '"/>'), r || n) return {
                                     img: A,
                                     lvl: r ? r.obj.item_level : n.obj.item_level
                                 }
                             }
-                            var u = "right_arm" === a || "left_arm" === a ? '<img style="position: relative;max-height: 58px;width: auto;margin: auto;display: block;" src="/images/inventory/default/' + a + '_blank.png" />' : '<img style="position: relative;max-height: 38px;width: auto;margin: auto;display: block;" src="/images/inventory/default/' + a + '_blank.png" />';
+                            var m = "right_arm" === a || "left_arm" === a ? '<img style="position: relative;max-height: 58px;width: auto;margin: auto;display: block;" src="/images/inventory/default/' + a + '_blank.png" />' : '<img style="position: relative;max-height: 38px;width: auto;margin: auto;display: block;" src="/images/inventory/default/' + a + '_blank.png" />';
                             return {
-                                img: u,
+                                img: m,
                                 lvl: 0
                             }
                         }
@@ -4825,13 +4865,15 @@
                 },
                 RankingData:
                 {
-                    players: {},
+                    players:
+                    {},
                     towns: [],
                     init: function()
                     {
                         var e, t = this;
                         /*! Towns */
-                        e = [], Ajax.get("map", "get_minimap", {}, function(i)
+                        e = [], Ajax.get("map", "get_minimap",
+                        {}, function(i)
                         {
                             if (i.error) return new UserMessage(i.msg)
                                 .show();
@@ -4899,7 +4941,8 @@
                 },
                 ItemList:
                 {
-                    items: {},
+                    items:
+                    {},
                     create: function(e, t)
                     {
                         this.items[t] = {}, this.items[t].elements = [], this.items[t].filter = {}, this.items[t].focused = 0, this.items[t].divMain ? this.getMainDiv(t)
@@ -5096,10 +5139,12 @@
                 MarketWatcher:
                 {
                     categories: ["head", "neck", "body", "pants", "belt", "foot", "right_arm", "left_arm", "animal", "yield", "recipe"],
-                    data_auctions: {},
+                    data_auctions:
+                    {},
                     data_collections: [],
                     data_trader_items: [],
-                    regexItems: {},
+                    regexItems:
+                    {},
                     init: function()
                     {
                         this.getCollections(), this.getMyAuctions()
@@ -5110,7 +5155,8 @@
                             i = {};
                         try
                         {
-                            Ajax.remoteCall("building_market", "fetch_bids", {}, function(a)
+                            Ajax.remoteCall("building_market", "fetch_bids",
+                            {}, function(a)
                             {
                                 if (a.error) return new UserMessage(a.msg)
                                     .show();
@@ -5133,14 +5179,16 @@
                                             posy: r[n].market_town_y,
                                             name: r[n].market_town_name,
                                             distance: o,
-                                            items: {}
+                                            items:
+                                            {}
                                         }, i[r[n].market_town_id].items[r[n].item_id] = {
                                             count: r[n].item_count,
                                             type: "bid",
                                             money: 0,
                                             id: r[n].item_id
                                         })
-                                    } Ajax.remoteCall("building_market", "fetch_offers", {}, function(a)
+                                    } Ajax.remoteCall("building_market", "fetch_offers",
+                                {}, function(a)
                                 {
                                     if (a.error) return new UserMessage(a.msg)
                                         .show();
@@ -5165,7 +5213,8 @@
                                                 posy: r[n].market_town_y,
                                                 name: r[n].market_town_name,
                                                 distance: o,
-                                                items: {}
+                                                items:
+                                                {}
                                             }, i[r[n].market_town_id].items[r[n].item_id] = {
                                                 count: r[n].item_count,
                                                 type: A,
@@ -5296,7 +5345,8 @@
                                     case 4:
                                         var i = function(e)
                                         {
-                                            Ajax.remoteCall("building_market", e, {}, function(e)
+                                            Ajax.remoteCall("building_market", e,
+                                            {}, function(e)
                                             {
                                                 return e.error ? new UserMessage(e.msg)
                                                     .show() : (Character.setDeposit(e.deposit), Character.setMoney(e.cash), new MessageSuccess(e.msg)
@@ -5490,7 +5540,8 @@
                             {
                                 return e.fort_id
                             }));
-                            Ajax.get("map", "get_minimap", {}, function(a)
+                            Ajax.get("map", "get_minimap",
+                            {}, function(a)
                             {
                                 if (a.error) return new UserMessage(a.msg)
                                     .show();
@@ -5640,7 +5691,8 @@
                                                             {
                                                                 "town" === e.type ? TaskQueue.add(new TaskSleep(e.id, rooms[e.stage - 1])) : "fort" === e.type && TaskQueue.add(new TaskFortSleep(e.id, e.posx, e.posy))
                                                             }
-                                                            catch (e) {}
+                                                            catch (e)
+                                                            {}
                                                             selectbox.hide()
                                                         }
                                                     }(i))), selectbox.items[e].loaded = !0
@@ -5709,7 +5761,8 @@
                     },
                     makeList: function(e)
                     {
-                        Ajax.get("map", "get_minimap", {}, function(t)
+                        Ajax.get("map", "get_minimap",
+                        {}, function(t)
                         {
                             if (t.error) return new UserMessage(t.msg)
                                 .show();
@@ -5839,8 +5892,10 @@
                 },
                 SetCollector:
                 {
-                    filter: {},
-                    elements: {},
+                    filter:
+                    {},
+                    elements:
+                    {},
                     init: function()
                     {
                         var e = this;
@@ -6064,7 +6119,8 @@
                                             .left + a.width() + 10) return;
                                         t.unpin(e)
                                     }
-                                    catch (e) {}
+                                    catch (e)
+                                    {}
                                 }), r
                         }
                         t.unpin(e)
@@ -6231,14 +6287,14 @@
                         for (var C in n)
                             for (var s = n[C], A = 0; A < s.length; A++)
                                 for (var C in s[A].bonus) C.includes("_sector") && (C = C.replace("_sector", "")), "ms" !== C && !c.includes(C) && d.includes(C) && c.push(C);
-                        for (var m = 0; m < d.length; m++)
-                            if (c.includes(d[m]))
+                        for (var u = 0; u < d.length; u++)
+                            if (c.includes(d[u]))
                             {
-                                var u = TWIR.images.fort_bonus[d[m]] || TWIR.images.other_bonus[d[m]] || TWIR.images.job_bonus[d[m]];
-                                if ("speed" === d[m] && (u = TWIR.images.other_bonus.ms), u)
+                                var m = TWIR.images.fort_bonus[d[u]] || TWIR.images.other_bonus[d[u]] || TWIR.images.job_bonus[d[u]];
+                                if ("speed" === d[u] && (m = TWIR.images.other_bonus.ms), m)
                                 {
-                                    var g = $('<span style="display: inline-block;cursor: pointer;width: 60px; height: 25px;margin-left: 25px;"> <img title="' + TWIR_lang.calc[d[m]] + '" style="margin-left: 1px;" src="' + u + '" height="20" width="auto"/></span>'),
-                                        p = $('<input type="checkbox" name="filter_bonus" value="' + d[m] + '"' + (t.filter && t.filter[d[m]] ? ' checked="checked"' : "") + 'style="vertical-align: middle; cursor: pointer;"/>');
+                                    var g = $('<span style="display: inline-block;cursor: pointer;width: 60px; height: 25px;margin-left: 25px;"> <img title="' + TWIR_lang.calc[d[u]] + '" style="margin-left: 1px;" src="' + m + '" height="20" width="auto"/></span>'),
+                                        p = $('<input type="checkbox" name="filter_bonus" value="' + d[u] + '"' + (t.filter && t.filter[d[u]] ? ' checked="checked"' : "") + 'style="vertical-align: middle; cursor: pointer;"/>');
                                     g.prepend(p), p.click(function()
                                         {
                                             $("input[name=bonus_reset]", t.GuiDialog.getMainDiv())
@@ -6401,7 +6457,8 @@
                             for (var s = Bag.getItemsByItemIds(o), l = TWIR.ComboCalc.createItems(o, 50, Character.level), g = 0; g < l.length; g++) Bag.getItemByItemId(l[g][0]) && l[g][1].setCount(Bag.getItemByItemId(l[g][0])
                                     .count), n.getContentPane()
                                 .append(l[g][1].getMainDiv());
-                            var p = $.extend({}, Inventory.guiElements.instantWearButton);
+                            var p = $.extend(
+                            {}, Inventory.guiElements.instantWearButton);
                             $(p.getMainDiv())
                                 .on("click", function()
                                 {
@@ -6493,9 +6550,9 @@
                                     for (var n = 0; n < t.length; n++) i.includes(t[n].getItemBaseId()) || i.push(t[n].getItemBaseId());
                                     for (var o = 0; o < e.length; o++) i.includes(e[o]) || a.push(e[o]);
                                     return [i, a, t]
-                                }, C = 0, m = A.length; C < m; C++)
+                                }, C = 0, u = A.length; C < u; C++)
                             {
-                                for (var u = A[C][0], h = o[u] || [], w = [], p = 0; p < h.length; p++) w = w.concat(h[p].items);
+                                for (var m = A[C][0], h = o[m] || [], w = [], p = 0; p < h.length; p++) w = w.concat(h[p].items);
                                 for (var b = d(w), v = c(b[2]), y = b[1].length ? '<div style="color: #8b4513;margin-bottom: 10px;">' + TWIR_lang.tooltips.missing_items + ":</div>" : "", f = 0; f < b[1].length; f++)
                                 {
                                     var k = ItemManager.get(1e3 * b[1][f]);
@@ -6507,18 +6564,18 @@
                                     x.append($("<tr/>")
                                             .append($("<td/>")
                                                 .append($(i.getSetIconXHTML(w, e))
-                                                    .addMousePopup(i.getPopupXHTML(o[u][0]))))
+                                                    .addMousePopup(i.getPopupXHTML(o[m][0]))))
                                             .append($('<td style="width: 345px;vertical-align: middle;"/>')
-                                                .append('<div style="font-weight: bold;color: #523F30;margin-left: 25px;margin-right: 10px;">' + o[u][0].name + "</div>"))
+                                                .append('<div style="font-weight: bold;color: #523F30;margin-left: 25px;margin-right: 10px;">' + o[m][0].name + "</div>"))
                                             .append($('<td style="width: 50px;vertical-align: middle;"/>')
-                                                .append('<div title="' + y.escapeHTML() + '" style="text-align: center;">' + (!b[1].length || 1 === b[1].length && 1 === v.length ? "(" + w.length + ")" : "(" + b[0].length + "/" + w.length + ")") + "</div>"))), r[u] = $('<div style="width: 465px; height: 64px; border-bottom: 1px solid rgba(140,92,20,0.65); cursor: pointer;"></div>')
+                                                .append('<div title="' + y.escapeHTML() + '" style="text-align: center;">' + (!b[1].length || 1 === b[1].length && 1 === v.length ? "(" + w.length + ")" : "(" + b[0].length + "/" + w.length + ")") + "</div>"))), r[m] = $('<div style="width: 465px; height: 64px; border-bottom: 1px solid rgba(140,92,20,0.65); cursor: pointer;"></div>')
                                         .append(x)
                                 }
                                 else
                                 {
                                     var R = $(".twir_bookmarks", Inventory.DOM);
-                                    r[u] = $(i.getSetIconXHTML(w, e))
-                                        .addMousePopup(i.getPopupXHTML(o[u][0]))
+                                    r[m] = $(i.getSetIconXHTML(w, e))
+                                        .addMousePopup(i.getPopupXHTML(o[m][0]))
                                         .addClass("dnd_draggable")
                                         .draggable(
                                         {
@@ -6542,7 +6599,7 @@
                                             },
                                             distance: 10
                                         })
-                                }(1 === b[0].length || 2 === v.length && 2 === b[0].length) && r[u].css("filter", "opacity(0.5)"), r[u].data("set", u)
+                                }(1 === b[0].length || 2 === v.length && 2 === b[0].length) && r[m].css("filter", "opacity(0.5)"), r[m].data("set", m)
                                     .addClass("twir_set_collector_element")
                                     .mouseenter(function(e)
                                     {
@@ -6564,7 +6621,7 @@
                                             a = $("div.tw2gui_scrollbar_pulley", t.divMain);
                                         i.pulleyPos = a.position(), i.initSet($(this)
                                             .data("set"))
-                                    }), n.append(r[u])
+                                    }), n.append(r[m])
                             }
                             a.getContentPane()
                                 .append(n), i.search(i.GuiTextfield.getValue())
@@ -6800,7 +6857,8 @@
                             {
                                 BuffList.twir_updateCooldownTimer.apply(this, arguments)
                             }
-                            catch (e) {}
+                            catch (e)
+                            {}
                         }, Inventory.twir_firstLoad = Inventory.twir_firstLoad || Inventory.firstLoad;
                         var oldFL = Inventory.twir_firstLoad.toString();
                         Inventory.firstLoad = function(e)
@@ -7379,7 +7437,7 @@
                                             (p = r(I)) && l(self.searchResources(item));
                                             break;
                                         case TWIR.Inventory.search_keybinds[4].k:
-                                            (p = r(I)) && self.searchTooltip(tooltip, function(e)
+                                            (p = r(I)) && self.searchTooltip(p, function(e)
                                             {
                                                 l(e)
                                             });
@@ -7454,7 +7512,8 @@
                             TWIR.SetCollector.initPins()
                         }, 5e3))
                     },
-                    items_by_category: {},
+                    items_by_category:
+                    {},
                     categorizeItems: function()
                     {
                         try
@@ -7542,24 +7601,24 @@
                                 "recipe" === g.type && s("recipes", g.item_id)
                             }
                             var C = [],
-                                m = [];
-                            for (var u in a.bonusKeys4Type)
+                                u = [];
+                            for (var m in a.bonusKeys4Type)
                             {
-                                this.items_by_category[u] = {}, this.items_by_category[u + "_all"] = [];
-                                for (var h = 0; h < a.bonusKeys4Type[u].length; h++)
+                                this.items_by_category[m] = {}, this.items_by_category[m + "_all"] = [];
+                                for (var h = 0; h < a.bonusKeys4Type[m].length; h++)
                                 {
-                                    var w = a.bonusKeys4Type[u][h],
+                                    var w = a.bonusKeys4Type[m][h],
                                         b = r[w] || [];
-                                    this.items_by_category[u][w] = b;
-                                    for (var v = 0; v < b.length; v++) this.items_by_category[u + "_all"].includes(b[v]) || this.items_by_category[u + "_all"].push(b[v]), C.push(b[v])
+                                    this.items_by_category[m][w] = b;
+                                    for (var v = 0; v < b.length; v++) this.items_by_category[m + "_all"].includes(b[v]) || this.items_by_category[m + "_all"].push(b[v]), C.push(b[v])
                                 }
                             }
                             for (var y = 0; y < e.length; y++)
                                 if (e[y])
                                 {
                                     var g = e[y].obj;
-                                    C.includes(g.item_id) || n.includes(g.item_id) || o.includes(g.item_id) || A.includes(g.item_id) || m.push(g.item_id)
-                                } this.items_by_category.useable.others = m
+                                    C.includes(g.item_id) || n.includes(g.item_id) || o.includes(g.item_id) || A.includes(g.item_id) || u.push(g.item_id)
+                                } this.items_by_category.useable.others = u
                         }
                         catch (e)
                         {
@@ -7716,11 +7775,11 @@
                             d: TWIR_lang.organizing.collectibles
                         },
                         {
-                            f: "duplicate",
+                            f: "upgrade (x)",
                             d: TWIR_lang.inventory.upgraded
                         },
                         {
-                            f: "useless",
+                            f: "duplicate (x)",
                             d: TWIR_lang.organizing.duplicates
                         }];
                         return e.sort(function(e, t)
@@ -7883,13 +7942,13 @@
                                             .name;
                                         return l ? d.localeCompare(C) : C.localeCompare(d);
                                     case "sort_ups":
-                                        var m = n[t.obj.short] ? n[t.obj.short].price_nuggets : o[t.obj.short] ? o[t.obj.short].price_nuggets : 0,
-                                            u = n[s.obj.short] ? n[s.obj.short].price_nuggets : o[s.obj.short] ? o[s.obj.short].price_nuggets : 0,
+                                        var u = n[t.obj.short] ? n[t.obj.short].price_nuggets : o[t.obj.short] ? o[t.obj.short].price_nuggets : 0,
+                                            m = n[s.obj.short] ? n[s.obj.short].price_nuggets : o[s.obj.short] ? o[s.obj.short].price_nuggets : 0,
                                             h = n[t.obj.short] ? n[t.obj.short].price_veteran : o[t.obj.short] ? o[t.obj.short].price_veteran : 0,
                                             w = n[s.obj.short] ? n[s.obj.short].price_veteran : o[s.obj.short] ? o[s.obj.short].price_veteran : 0,
                                             b = n[t.obj.short] ? n[t.obj.short].price_dollar : o[t.obj.short] ? o[t.obj.short].price_dollar : 0,
                                             v = n[s.obj.short] ? n[s.obj.short].price_dollar : o[s.obj.short] ? o[s.obj.short].price_dollar : 0;
-                                        return m || h || b ? u || w || v ? l ? m - u || w - h || v - b : u - m || h - w || b - v : -1 : 1;
+                                        return u || h || b ? m || w || v ? l ? u - m || w - h || v - b : m - u || h - w || b - v : -1 : 1;
                                     default:
                                         return l ? t.obj.item_id - s.obj.item_id : s.obj.item_id - t.obj.item_id
                                 }
@@ -7976,11 +8035,11 @@
                                     break;
                                 case "upgrade":
                                 case "upgraded":
-                                    if (0 != e.obj.item_level && !a || 0 == e.obj.item_level && a) return !0;
+                                    if (e.obj.upgradeable && (!i && (0 != e.obj.item_level && !a || 0 == e.obj.item_level && a) || i && (e.obj.item_level >= i && !a || e.obj.item_level <= i && a))) return !0;
                                     break;
                                 case "duplicate":
                                 case "useless":
-                                    if (e.count > 1 && !a || 1 == e.count && a) return !0
+                                    if (!i && (e.count > 1 && !a || 1 == e.count && a) || i && (e.count >= i && !a || e.count <= i && a)) return !0
                             }
                             return !1
                         }(t[0], t[1], i)
@@ -8498,13 +8557,16 @@
                                 (n in t.skill || n in i.skill) && (e += a(t.skill[n] || 0, i.skill[n] || 0, CharacterSkills.keyNames[n]))
                             }
                             /*! Income */
-                            var A = $.extend({}, t.income, i.income);
+                            var A = $.extend(
+                            {}, t.income, i.income);
                             for (var s in A) s === Object.keys(A)[0] && (e += '<tr style="height: 16px;"/>'), e += a(t.income[s] || 0, i.income[s] || 0, TWIR_lang.calc[s], s);
                             /*! Jobs */
-                            var l = $.extend({}, t.job, i.job);
+                            var l = $.extend(
+                            {}, t.job, i.job);
                             for (var g in l) $.isNumeric(g) || (g === Object.keys(l)[0] && (e += '<tr style="height: 16px;"/>'), e += a(t.job[g] || 0, i.job[g] || 0, TWIR_lang.calc[g], g));
                             /*! Fortbattle */
-                            var p = $.extend({}, t.fortbattle, i.fortbattle);
+                            var p = $.extend(
+                            {}, t.fortbattle, i.fortbattle);
                             for (var I in p)
                             {
                                 var n = I;
@@ -8513,7 +8575,8 @@
                                 n.includes("_sector") && (c = !0, n = n.replace("_sector", "")), e += a(t.fortbattle[I] || 0, i.fortbattle[I] || 0, TWIR_lang.calc[n], n, c)
                             }
                             /*! Other */
-                            var d = $.extend({}, t.other, i.other);
+                            var d = $.extend(
+                            {}, t.other, i.other);
                             for (var C in d) "ms" !== C && (C === Object.keys(d)[0] && (e += '<tr style="height: 16px;"/>'), e += a(t.other[C] || 0, i.other[C] || 0, TWIR_lang.calc[C], C));
                             return e += "</table>"
                         }
@@ -8690,9 +8753,11 @@
                 },
                 ComboCalc:
                 {
-                    options: {},
+                    options:
+                    {},
                     elements: [],
-                    selectors: {},
+                    selectors:
+                    {},
                     createItems: function(e, t, i)
                     {
                         try
@@ -9249,14 +9314,16 @@
             }, TWIR.initScript(), TWIR_Calc = function(e, t)
             {
                 var i = {
-                    skills: {},
+                    skills:
+                    {},
                     sort: null,
                     weapon: null,
                     side: "attack",
                     level: Character.level,
                     wearable: !0
                 };
-                if (this.options = $.extend(i, t || {}), this._memo || (this._memo = {}), e) return this.calc(e, Array.prototype.slice.call(arguments, 2))
+                if (this.options = $.extend(i, t ||
+                    {}), this._memo || (this._memo = {}), e) return this.calc(e, Array.prototype.slice.call(arguments, 2))
             }, TWIR_Calc.prototype = TWIR_Calc, TWIR_Calc.calc = function(e, t)
             {
                 var i = this;
@@ -9331,7 +9398,7 @@
                                             return t
                                         }
                                     /*! Item bonus */
-                                    (), d = new west.item.ItemSetContainer, C = 0, m = c.length; C < m; C++) d.addItem(c[C].getId());
+                                    (), d = new west.item.ItemSetContainer, C = 0, u = c.length; C < u; C++) d.addItem(c[C].getId());
                                 l = function(e)
                                     {
                                         for (var t, i, a, r = [], n = {}, l = 0, g = e.length; l < g; l++) setValue = s(e[l], !0), setValue = o(setValue, !0), setValue.tmp < 1 && setValue.val < 1 || (t = JSON.stringify(e[l].getUsedSlots()
@@ -9381,12 +9448,12 @@
                                                 }, d = 0, C = e.length
                                                 /*! Selected weapon type only */
                                                 ; d < C; d++)
-                                                for (var m = (a = e[d])
-                                                        .items.length; m > 0; m--)
-                                                    if (a.bonus.hasOwnProperty(m))
+                                                for (var u = (a = e[d])
+                                                        .items.length; u > 0; u--)
+                                                    if (a.bonus.hasOwnProperty(u))
                                                     {
-                                                        var u = g(a.items);
-                                                        o = n(u, m);
+                                                        var m = g(a.items);
+                                                        o = n(m, u);
                                                         for (var h = 0, w = o.length; h < w; h++) p(o[h]) && (s = new west.item.ItemSet(
                                                         {
                                                             key: a.key,
@@ -9398,14 +9465,14 @@
                                         /*! Create combinations */
                                         (g, c)), (l = west.item.Calculator.fillEmptySlots(west.item.Calculator.combineSets(l), c))
                                     .push(d);
-                                for (var C = 0, m = l.length; C < m; C++)
+                                for (var C = 0, u = l.length; C < u; C++)
                                 {
                                     l[C] = i.itemsToSets(l[C]);
-                                    var u = p(l[C], !0);
-                                    if (e = I(u), t = I(u, "fort_hp"), l[C].tmp = e, l[C].hp = t, "string" == typeof i.options.skills && a.includes(i.options.skills))
+                                    var m = p(l[C], !0);
+                                    if (e = I(m), t = I(m, "fort_hp"), l[C].tmp = e, l[C].hp = t, "string" == typeof i.options.skills && a.includes(i.options.skills))
                                     {
                                         l[C].stats = {};
-                                        for (var h = 0; h < a.length; h++) l[C].stats[a[h]] = I(u, a[h])
+                                        for (var h = 0; h < a.length; h++) l[C].stats[a[h]] = I(m, a[h])
                                     }
                                 }
                                 return l
@@ -9703,8 +9770,8 @@
                         }(e.left_arm_damage_min || 0, e.left_arm_damage_max || 0) + g,
                         d = "attack" == i.options.side ? (e.hide || 0) + r("hide") : (e.pitfall || 0) + r("pitfall"),
                         C = (e.leadership || 0) + r("leadership"),
-                        m = (e.aim || 0) + r("aim"),
-                        u = (e.dodge || 0) + r("dodge");
+                        u = (e.aim || 0) + r("aim"),
+                        m = (e.dodge || 0) + r("dodge");
                     switch (t || ("string" == typeof i.options.skills ? i.options.skills : void 0))
                     {
                         case "ms":
@@ -9714,10 +9781,10 @@
                             a += n(300 * d / p + (e.fort_resistance || 0), 0);
                             break;
                         case "fort_offense":
-                            a += n((25 + A + Math.pow(m, .5) + Math.pow(d, .6) + (e.fort_offense || 0) + (e.fort_offense_sector || 0)) * s, 2);
+                            a += n((25 + A + Math.pow(u, .5) + Math.pow(d, .6) + (e.fort_offense || 0) + (e.fort_offense_sector || 0)) * s, 2);
                             break;
                         case "fort_defense":
-                            a += n((10 + A + Math.pow(u, .5) + Math.pow(d, .6) + (e.fort_defense || 0) + (e.fort_defense_sector || 0)) * s, 2);
+                            a += n((10 + A + Math.pow(m, .5) + Math.pow(d, .6) + (e.fort_defense || 0) + (e.fort_defense_sector || 0)) * s, 2);
                             break;
                         case "fort_damage":
                             a += Math.round(c + c * C / p);
@@ -9734,7 +9801,8 @@
                     }
                     if (!t && "string" == typeof i.options.skills)
                     {
-                        var h = I({}, i.options.skills);
+                        var h = I(
+                        {}, i.options.skills);
                         a -= h
                     }
                     return (isNaN(a) || a < 1) && (a = 0), a
@@ -9817,13 +9885,20 @@
             {
                 var t = ["experience", "dollar", "drop", "luck"],
                     i = {
-                        skill: {},
-                        attribute: {},
-                        fortbattle: {},
-                        job: {},
-                        income: {},
-                        damage: {},
-                        other: {}
+                        skill:
+                        {},
+                        attribute:
+                        {},
+                        fortbattle:
+                        {},
+                        job:
+                        {},
+                        income:
+                        {},
+                        damage:
+                        {},
+                        other:
+                        {}
                     };
                 for (var a in e) switch (!0)
                 {
@@ -9856,20 +9931,25 @@
                 request: function()
                 {
                     var e = this;
-                    e.interval || (e.interval = window.setInterval(e.request, Math.floor(12e5 * Math.random() + 6e5)));
+                    e.lastVersion = localStorage.getItem("twir_lastVersion"), e.interval || (e.interval = window.setInterval(e.request, Math.floor(12e5 * Math.random() + 6e5)));
                     try
                     {
                         $.get(TWIR.base_url + "update.txt", function(t)
                         {
-                            for (var i = t.split(", "), a = 0; a < i.length; a++)
+                            for (var i = t.split(" | "), a = 0; a < i.length; a++)
                             {
                                 var r = i[a].split(": ");
-                                e[r[0]] = r[1].replace(/\n/g, "")
+                                e[r[0]] = r[1].replace(/\n/g, "<br>")
                             }
+                            var n = new west.gui.Scrollpane;
+                            n.getContentPane()
+                                .append("<i>" + e.changes + "</i>");
+                            var o = $('<div style="max-width: 445px;height: 100px;"></div>');
                             if (e.version !== TWIR.version)
                             {
                                 e.version.match(/(\d+[.]\d+)(?:[.]\d+){0,1}/);
-                                new west.gui.Dialog("TWIR " + e.version, '<div style="max-width: 450px;"><div>' + TWIR_lang.update_message + "</div><br/><div><b>" + TWIR_lang.changes + "</b></br><i>" + e.changes + "</i>"), TWIR_lang.donate_text_2.replace(/\%(.*?)\%/, '<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9U7R8YASZ3FXA&source=url">$1</a>.</div></div>', west.gui.Dialog.SYS_WARNING)
+                                new west.gui.Dialog("TWIR " + TWIR.version + " > " + e.version, $('<div style="max-width: 450px;"><div>')
+                                        .append("<div>" + TWIR_lang.update_message + "</div><br/>", "<div><b>" + TWIR_lang.changes + "</b></div></br>", o.append(n.getMainDiv()), "<br><hr><br><div>" + TWIR_lang.donate_text_2.replace(/\%(.*?)\%/, '<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9U7R8YASZ3FXA&source=url">$1</a>.') + "</div>"), west.gui.Dialog.SYS_WARNING)
                                     .addButton(TWIR_lang.download, function()
                                     {
                                         window.open(TWIR.base_url + "code.user.js")
@@ -9877,9 +9957,17 @@
                                     .addButton(TWIR_lang.informative.later, function() {})
                                     .show(), clearInterval(e.interval)
                             }
+                            else e.lastVersion && e.lastVersion === TWIR.version || new west.gui.Dialog("TWIR " + TWIR.version, $('<div style="max-width: 450px;"><div>')
+                                    .append("<div><b>" + TWIR_lang.changes + "</b></div></br>", o.append(n.getMainDiv()), "<br><hr><br><div>" + TWIR_lang.donate_text_2.replace(/\%(.*?)\%/, '<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9U7R8YASZ3FXA&source=url">$1</a>.') + "</div>"), west.gui.Dialog.SYS_OK)
+                                .addButton("ok", function()
+                                {
+                                    localStorage.setItem("twir_lastVersion", TWIR.version)
+                                })
+                                .show()
                         }, "text")
                     }
-                    catch (e) {}
+                    catch (e)
+                    {}
                 }
             })
     } + ")();", document.body.appendChild(script), document.body.removeChild(script)
