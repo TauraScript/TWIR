@@ -183,7 +183,7 @@
         "other": "Ostatné preferencie",
         "enable_addon": "Povoliť %1 na tomto svete",
         "sort_inv": "Vlastné triedenie",
-        "searching": "Searching"
+        "searching": "Vyhľadávanie"
     },
     "feat_strings": {
         "pop_item_id": "Zobraziť ID u každého predmetu",
@@ -284,7 +284,8 @@
         "later": "Neskôr",
         "reset": "Resetovať",
         "u_sure": "Naozaj?",
-        "processing": "Pracujem.."
+        "processing": "Pracujem..",
+        "search_prefix": "Priradiť predponu vyhľadávania"
     },
     "calc": {
         "regen": "Regenerácia",
@@ -394,13 +395,13 @@
         "east": "Východná hradba"
     },
     "keybinds": {
-        "exclude": "Exclude",
-        "exact": "Exact name",
-        "color": "Color",
-        "recipe": "Recipe",
-        "tooltip": "Tooltip",
-        "filter_in": "Filter - include",
-        "filter_out": "Filter - exclude",
-        "separator": "Search separator"
+        "exclude": "Vylúčiť z vyhľadávania",
+        "exact": "Presný názov",
+        "color": "Farba",
+        "recipe": "Suroviny pre výrobu",
+        "tooltip": "Popis predmetu",
+        "filter_in": "Filter - zahrnúť",
+        "filter_out": "Filter - vylúčiť",
+        "separator": "Oddeľovač vyhľadávania"
     }
 }
