@@ -1,5 +1,5 @@
 version: 2.203.0 | revision: 20 | changes: 
-- MarketWatcher and its features are no longer supported. This feature violates the rules of the game and its use may lead to the permanent suspension of the account and therefore will no longer be part of this script. If you like this feature, you can go back to the old version 2.202.8, which was in charge of Jamza. I am sorry.
+- MarketWatcher and its features are no longer supported. This feature violates the rules of the game and its use may lead to the permanent suspension of the account and therefore will no longer be part of this script. I am sorry.
 
 - Inventory search has been redesigned, now it is an internal part of the inventory. The external search window with all its functions has been replaced by search prefixes. You can change these prefixes in the settings.
 
