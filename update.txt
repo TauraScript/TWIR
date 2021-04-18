@@ -4,3 +4,5 @@ version: 2.203.0 | revision: 20 | changes:
 - Inventory search has been redesigned, now it is an internal part of the inventory. The external search window with all its functions has been replaced by search prefixes. You can change these prefixes in the settings.
 
 - The code has been improved.
+
+- The possibility of a financial contribution to support the development of this script is working again and most of the money will go to the original author. We are grateful and appreciate every contribution, because we have no other profit from this and the development of this script takes us hours and hours of time. We thank you.   
